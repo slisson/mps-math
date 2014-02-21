@@ -26,8 +26,22 @@
               <node role="lower" roleId="96v7.175930839492098775" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="175930839497304444" nodeInfo="nn">
                 <property name="value" nameId="tpee.1068580320021" value="10" />
               </node>
-              <node role="upper" roleId="96v7.175930839492098780" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="175930839497304494" nodeInfo="nn">
-                <property name="value" nameId="tpee.1068580320021" value="11" />
+              <node role="upper" roleId="96v7.175930839492098780" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="175930839503064359" nodeInfo="nn">
+                <node role="rightExpression" roleId="tpee.1081773367579" type="96v7.Sum" typeId="96v7.175930839491777739" id="175930839503064397" nodeInfo="ng">
+                  <property name="varName" nameId="96v7.175930839492098773" value="k" />
+                  <node role="lower" roleId="96v7.175930839492098775" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="175930839503064443" nodeInfo="nn">
+                    <property name="value" nameId="tpee.1068580320021" value="10" />
+                  </node>
+                  <node role="upper" roleId="96v7.175930839492098780" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="175930839503064474" nodeInfo="nn">
+                    <property name="value" nameId="tpee.1068580320021" value="20" />
+                  </node>
+                  <node role="body" roleId="96v7.175930839492098783" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="175930839503064505" nodeInfo="nn">
+                    <property name="value" nameId="tpee.1068580320021" value="90" />
+                  </node>
+                </node>
+                <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="175930839497304494" nodeInfo="nn">
+                  <property name="value" nameId="tpee.1068580320021" value="11" />
+                </node>
               </node>
               <node role="body" roleId="96v7.175930839492098783" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="175930839497304657" nodeInfo="nn">
                 <property name="value" nameId="tpee.1068580320021" value="12" />
