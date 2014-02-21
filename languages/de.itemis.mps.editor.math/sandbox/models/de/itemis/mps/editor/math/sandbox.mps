@@ -20,8 +20,7 @@
         <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="175930839500670595" nodeInfo="nn" />
         <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="175930839496088079" nodeInfo="nn">
           <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="175930839496088082" nodeInfo="nr">
-            <property name="name" nameId="tpck.1169194664001" value="i" />
-            <node role="type" roleId="tpee.5680397130376446158" type="tpee.IntegerType" typeId="tpee.1070534370425" id="175930839496088077" nodeInfo="in" />
+            <property name="name" nameId="tpck.1169194664001" value="i1" />
             <node role="initializer" roleId="tpee.1068431790190" type="96v7.Sum" typeId="96v7.175930839491777739" id="175930839496088172" nodeInfo="ng">
               <property name="varName" nameId="96v7.175930839492098773" value="i" />
               <node role="lower" roleId="96v7.175930839492098775" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="175930839497304444" nodeInfo="nn">
@@ -34,6 +33,7 @@
                 <property name="value" nameId="tpee.1068580320021" value="12" />
               </node>
             </node>
+            <node role="type" roleId="tpee.5680397130376446158" type="tpee.IntegerType" typeId="tpee.1070534370425" id="175930839502334539" nodeInfo="in" />
           </node>
         </node>
         <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="175930839500670607" nodeInfo="nn" />
