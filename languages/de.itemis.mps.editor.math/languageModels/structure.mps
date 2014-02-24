@@ -23,6 +23,11 @@
       <property name="role" nameId="tpce.1071599776563" value="paintFunction" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="175930839491748729" resolveInfo="PaintFunction" />
     </node>
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="8081971784019215943" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="getCenterYFunction" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="8081971784019206781" resolveInfo="GetCenterYFunction" />
+    </node>
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1330709772460755941" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="childCells" />
@@ -84,6 +89,11 @@
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="1330709772460755775" resolveInfo="ChildCellDecl" />
     </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8081971784019206781" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="GetCenterYFunction" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="getCenterY" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1137021947720" resolveInfo="ConceptFunction" />
   </root>
 </model>
 
