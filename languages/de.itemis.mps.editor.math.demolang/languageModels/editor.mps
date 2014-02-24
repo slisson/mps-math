@@ -20,7 +20,6 @@
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="4" implicit="yes" />
   <import index="96v7" modelUID="r:f92b813d-c86e-400b-bec8-065f793ac96a(de.itemis.mps.editor.math.demolang.structure)" version="-1" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
   <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" implicit="yes" />
   <import index="diuo" modelUID="r:98c96203-129a-452b-86c3-5a06ed0a0d9e(de.itemis.mps.editor.math.notations.structure)" version="-1" implicit="yes" />
   <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="175930839491943185" nodeInfo="ng">
@@ -1051,34 +1050,6 @@
         <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Horizontal" typeId="tpc2.1106270549637" id="1330709772460740001" nodeInfo="nn" />
         <node role="layoutFunction" roleId="x4fh.175930839491748724" type="x4fh.LayoutFunction" typeId="x4fh.175930839491748723" id="1330709772460740003" nodeInfo="ng">
           <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="1330709772460740005" nodeInfo="sn">
-            <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="1330709772460740069" nodeInfo="nn">
-              <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="1330709772460740070" nodeInfo="nr">
-                <property name="name" nameId="tpck.1169194664001" value="base" />
-                <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="1330709772460740071" nodeInfo="in">
-                  <link role="classifier" roleId="tpee.1107535924139" targetNodeId="5nlq.175930839492106713" resolveInfo="MathLayoutableCell" />
-                </node>
-                <node role="initializer" roleId="tpee.1068431790190" type="tp2q.ListElementAccessExpression" typeId="tp2q.1225711141656" id="1330709772460752618" nodeInfo="nn">
-                  <node role="index" roleId="tp2q.1225711191269" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="1330709772460752692" nodeInfo="nn">
-                    <property name="value" nameId="tpee.1068580320021" value="0" />
-                  </node>
-                  <node role="list" roleId="tp2q.1225711182005" type="x4fh.Parameter_ChildCells" typeId="x4fh.175930839491984549" id="1330709772460740127" nodeInfo="ng" />
-                </node>
-              </node>
-            </node>
-            <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="1330709772460745614" nodeInfo="nn">
-              <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="1330709772460745615" nodeInfo="nr">
-                <property name="name" nameId="tpck.1169194664001" value="exponent" />
-                <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="1330709772460745616" nodeInfo="in">
-                  <link role="classifier" roleId="tpee.1107535924139" targetNodeId="5nlq.175930839492106713" resolveInfo="MathLayoutableCell" />
-                </node>
-                <node role="initializer" roleId="tpee.1068431790190" type="tp2q.ListElementAccessExpression" typeId="tp2q.1225711141656" id="1330709772460754660" nodeInfo="nn">
-                  <node role="index" roleId="tp2q.1225711191269" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="1330709772460754734" nodeInfo="nn">
-                    <property name="value" nameId="tpee.1068580320021" value="0" />
-                  </node>
-                  <node role="list" roleId="tp2q.1225711182005" type="x4fh.Parameter_ChildCells" typeId="x4fh.175930839491984549" id="1330709772460747516" nodeInfo="ng" />
-                </node>
-              </node>
-            </node>
             <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="1330709772460754797" nodeInfo="nn" />
           </node>
         </node>
