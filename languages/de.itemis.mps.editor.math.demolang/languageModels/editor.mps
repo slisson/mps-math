@@ -28,6 +28,7 @@
       <node role="childCellModel" roleId="tpc2.1073389446424" type="x4fh.CellModel_MathBase" typeId="x4fh.1546395981771466060" id="175930839491944286" nodeInfo="ng">
         <node role="childCells" roleId="x4fh.1330709772460755941" type="x4fh.ChildCellDecl" typeId="x4fh.1330709772460755775" id="1330709772461125380" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="lower" />
+          <property name="scale" nameId="x4fh.1330709772460755993" value="0.75" />
           <node role="cellModel" roleId="x4fh.1330709772460755983" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="175930839492121097" nodeInfo="nn">
             <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.SelectableStyleSheetItem" typeId="tpc2.1186414928363" id="175930839492121099" nodeInfo="nn">
               <property name="flag" nameId="tpc2.1186414551515" value="false" />
@@ -46,6 +47,7 @@
         </node>
         <node role="childCells" roleId="x4fh.1330709772460755941" type="x4fh.ChildCellDecl" typeId="x4fh.1330709772460755775" id="1330709772461125396" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="upper" />
+          <property name="scale" nameId="x4fh.1330709772460755993" value="0.75" />
           <node role="cellModel" roleId="x4fh.1330709772460755983" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="175930839492098799" nodeInfo="ng">
             <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="96v7.175930839492098780" />
           </node>
