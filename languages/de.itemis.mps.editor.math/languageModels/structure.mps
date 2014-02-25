@@ -11,7 +11,7 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1546395981771466060" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="CellModel_MathBase" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="math" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpc2.1073389446423" resolveInfo="CellModel_Collection" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpc2.1073389214265" resolveInfo="EditorCellModel" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="175930839491748724" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="layoutFunction" />
