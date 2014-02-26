@@ -3210,11 +3210,11 @@
             </node>
             <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="8658283006818235246" nodeInfo="nn">
               <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="1t7x.~Graphics2D%dscale(double,double)%cvoid" resolveInfo="scale" />
-              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="8658283006818235247" nodeInfo="nn">
-                <property name="value" nameId="tpee.1068580320021" value="-1" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="8658283006819736574" nodeInfo="nn">
+                <property name="value" nameId="tpee.1113006610751" value="-1.0" />
               </node>
-              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="8658283006818235248" nodeInfo="nn">
-                <property name="value" nameId="tpee.1068580320021" value="1" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="8658283006819755296" nodeInfo="nn">
+                <property name="value" nameId="tpee.1113006610751" value="1.0" />
               </node>
             </node>
           </node>
@@ -3339,8 +3339,8 @@
                   <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1330709772430616459" resolveInfo="arcHalfAngle" />
                 </node>
               </node>
-              <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="1330709772430616473" nodeInfo="nn">
-                <property name="value" nameId="tpee.1068580320021" value="1" />
+              <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="8658283006819714318" nodeInfo="nn">
+                <property name="value" nameId="tpee.1113006610751" value="1.0" />
               </node>
             </node>
           </node>
