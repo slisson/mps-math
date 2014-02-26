@@ -56,6 +56,7 @@
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1330709772460739764" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="Power" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="power" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1330709772460739857" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
