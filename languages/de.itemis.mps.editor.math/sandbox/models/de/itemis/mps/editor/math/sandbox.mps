@@ -355,6 +355,12 @@
                                 <node role="lower" roleId="96v7.175930839492098775" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="8658283006812249964" nodeInfo="nn">
                                   <property name="value" nameId="tpee.1068580320021" value="1" />
                                 </node>
+                                <node role="upper" roleId="96v7.175930839492098780" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="8658283006815166340" nodeInfo="nn">
+                                  <property name="value" nameId="tpee.1068580320021" value="2" />
+                                </node>
+                                <node role="body" roleId="96v7.175930839492098783" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="8658283006815167372" nodeInfo="nn">
+                                  <property name="value" nameId="tpee.1068580320021" value="3" />
+                                </node>
                               </node>
                               <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="8658283006808197849" nodeInfo="nn">
                                 <property name="value" nameId="tpee.1068580320021" value="20" />
