@@ -216,5 +216,23 @@
       <link role="target" roleId="tpce.1071599976176" targetNodeId="9120555111513755311" resolveInfo="MathSymbolDecl" />
     </node>
   </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="9120555111528208049" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="InlineMathSymbol" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="9120555111528208559" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="paintFunction" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="9120555111506484690" resolveInfo="SymbolPaintFunction" />
+    </node>
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="9120555111528208560" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="updateDimensionFunction" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="9120555111512623985" resolveInfo="UpdateDimensionFunction" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="9120555111528208457" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="9120555111513575398" resolveInfo="IMathSymbol" />
+    </node>
+  </root>
 </model>
 

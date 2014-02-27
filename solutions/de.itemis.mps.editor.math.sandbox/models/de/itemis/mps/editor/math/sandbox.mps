@@ -411,7 +411,39 @@
         <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="8658283006825409086" nodeInfo="nn" />
         <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="8658283006833917374" nodeInfo="nn" />
         <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="8658283006844513083" nodeInfo="nn" />
-        <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="8658283006844515043" nodeInfo="nn" />
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="9120555111527628516" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.MulAssignmentExpression" typeId="tpee.7024111702304495340" id="9120555111527669033" nodeInfo="nn">
+            <node role="rValue" roleId="tpee.1068498886297" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="9120555111529785971" nodeInfo="nn">
+              <node role="leftExpression" roleId="tpee.1081773367580" type="96v7.Sum2" typeId="96v7.9120555111527326193" id="9120555111527707272" nodeInfo="ng">
+                <property name="varName" nameId="96v7.175930839492098773" value="i" />
+                <node role="lower" roleId="96v7.175930839492098775" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="9120555111527744895" nodeInfo="nn">
+                  <property name="value" nameId="tpee.1068580320021" value="10" />
+                </node>
+                <node role="upper" roleId="96v7.175930839492098780" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="9120555111527782520" nodeInfo="nn">
+                  <property name="value" nameId="tpee.1068580320021" value="20" />
+                </node>
+                <node role="body" roleId="96v7.175930839492098783" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="9120555111527820148" nodeInfo="nn">
+                  <property name="value" nameId="tpee.1068580320021" value="30" />
+                </node>
+              </node>
+              <node role="rightExpression" roleId="tpee.1081773367579" type="96v7.Sum3" typeId="96v7.9120555111529625604" id="9120555111530288257" nodeInfo="ng">
+                <property name="varName" nameId="96v7.175930839492098773" value="i" />
+                <node role="lower" roleId="96v7.175930839492098775" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="9120555111530288328" nodeInfo="nn">
+                  <property name="value" nameId="tpee.1068580320021" value="10" />
+                </node>
+                <node role="upper" roleId="96v7.175930839492098780" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="9120555111530320813" nodeInfo="nn">
+                  <property name="value" nameId="tpee.1068580320021" value="20" />
+                </node>
+                <node role="body" roleId="96v7.175930839492098783" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="9120555111530353298" nodeInfo="nn">
+                  <property name="value" nameId="tpee.1068580320021" value="30" />
+                </node>
+              </node>
+            </node>
+            <node role="lValue" roleId="tpee.1068498886295" type="tpee.VariableReference" typeId="tpee.1068498886296" id="9120555111527667436" nodeInfo="nn">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1330709772442023166" resolveInfo="i1" />
+            </node>
+          </node>
+        </node>
         <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="8658283006844517012" nodeInfo="nn" />
         <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="8658283006844518978" nodeInfo="nn" />
         <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="8658283006844520533" nodeInfo="nn" />

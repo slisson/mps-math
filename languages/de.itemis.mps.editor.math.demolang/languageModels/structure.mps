@@ -6,6 +6,7 @@
   <import index="tpce" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="4" implicit="yes" />
+  <import index="96v7" modelUID="r:f92b813d-c86e-400b-bec8-065f793ac96a(de.itemis.mps.editor.math.demolang.structure)" version="-1" implicit="yes" />
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="175930839491777739" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="Sum" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="sum" />
@@ -179,6 +180,16 @@
       <property name="name" nameId="tpck.1169194664001" value="varName" />
       <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
     </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="9120555111527326193" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="Sum2" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="sum2" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="175930839491777739" resolveInfo="Sum" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="9120555111529625604" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="Sum3" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="sum3" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="175930839491777739" resolveInfo="Sum" />
   </root>
 </model>
 
