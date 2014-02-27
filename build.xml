@@ -160,6 +160,9 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-de.itemis.mps.editor.math.notations-generator-template">
       <fileset dir="${basedir}/languages/de.itemis.mps.editor.math.notations/generator/template" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
+    <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-de.itemis.mps.editor.math.notations-languageAccessories">
+      <fileset dir="${basedir}/languages/de.itemis.mps.editor.math.notations/languageAccessories" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
+    </copyModels>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-de.itemis.mps.editor.math.notations-languageModels">
       <fileset dir="${basedir}/languages/de.itemis.mps.editor.math.notations/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
@@ -168,6 +171,7 @@
       <fileset dir="${basedir}/languages/de.itemis.mps.editor.math.notations/source_gen" includes="**/*.java" />
       <zipfileset file="${basedir}/languages/de.itemis.mps.editor.math.notations/de.itemis.mps.editor.math.notations.mpl" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-de.itemis.mps.editor.math.notations-generator-template" prefix="module/generator/template" />
+      <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-de.itemis.mps.editor.math.notations-languageAccessories" prefix="module/languageAccessories" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-de.itemis.mps.editor.math.notations-languageModels" prefix="module/languageModels" />
     </jar>
     <zip destfile="${build.layout}/mps-math-editor.zip">
@@ -199,7 +203,7 @@
   
   <target name="generate" depends="declare-mps-tasks, fetchDependencies">
     <echo message="generating" />
-    <generate strictMode="true" parallelMode="true" parallelThreads="8" useInplaceTransform="false" fork="true">
+    <generate strictMode="true" parallelMode="true" parallelThreads="16" useInplaceTransform="true" fork="true">
       <plugin path="${artifacts.mps}/plugins/mps-build" />
       <plugin path="${artifacts.mps}/plugins/mps-core/META-INF/plugin.xml/../.." />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
@@ -418,7 +422,7 @@
     </javac>
   </target>
   
-  <target name="java.compile.de.itemis.mps.editor.math.notations" depends="java.compile.de.itemis.mps.editor.math, fetchDependencies">
+  <target name="java.compile.de.itemis.mps.editor.math.notations" depends="java.compile.de.itemis.mps.editor.math, java.compile.de.itemis.mps.editor.math.runtime, fetchDependencies">
     <mkdir dir="${basedir}/languages/de.itemis.mps.editor.math.notations/source_gen" />
     <mkdir dir="${build.tmp}/java/out/de.itemis.mps.editor.math.notations" />
     <javac destdir="${build.tmp}/java/out/de.itemis.mps.editor.math.notations" fork="true" includeantruntime="false">
@@ -437,6 +441,7 @@
         <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
         <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <pathelement path="${build.tmp}/java/out/de.itemis.mps.editor.math" />
+        <pathelement path="${build.tmp}/java/out/de.itemis.mps.editor.math.runtime" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
