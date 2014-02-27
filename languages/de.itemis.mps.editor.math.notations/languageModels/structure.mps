@@ -27,13 +27,7 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8658283006837847844" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="CurlyBracketsEditor" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="math.curly-brackets" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpc2.1073389214265" resolveInfo="EditorCellModel" />
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="8658283006838051878" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="body" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="tpc2.1073389214265" resolveInfo="EditorCellModel" />
-    </node>
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="9120555111532910673" resolveInfo="AbstractBracketsEditor" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8658283006837848169" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="DivisionEditor" />
@@ -110,13 +104,7 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8658283006837850119" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="SquareBracketsEditor" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="math.square-brackets" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpc2.1073389214265" resolveInfo="EditorCellModel" />
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="8658283006838153056" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="body" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="tpc2.1073389214265" resolveInfo="EditorCellModel" />
-    </node>
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="9120555111532910673" resolveInfo="AbstractBracketsEditor" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="9120555111506449355" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="LoopEditor" />
@@ -173,6 +161,7 @@
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="9120555111532911681" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="BracketsEditor" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="math.brackets" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="9120555111532910673" resolveInfo="AbstractBracketsEditor" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="9120555111532935490" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
