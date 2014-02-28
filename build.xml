@@ -3,7 +3,7 @@
   <property name="build.dir" location="build" />
   <property name="build.tmp" location="${build.dir}/tmp/mps-math-editor" />
   <property name="build.layout" location="${build.dir}/artifacts/mps-math-editor" />
-  <property name="mps.home" location="${basedir}/../../../../../../../Applications/MPS31EAP.app" />
+  <property name="mps.home" location="${basedir}/../../MPS/MPS-3.1-EAP1-27.app" />
   <property name="artifacts.mps" location="${mps.home}" />
   <property file="${artifacts.mps}/build.properties" prefix="import.mps" />
   <property name="mps.build.number" value="${import.mps.mps.build.number}" />
@@ -88,6 +88,36 @@
       <zipfileset file="${basedir}/solutions/de.itemis.mps.editor.math.runtime/de.itemis.mps.editor.math.runtime.msd" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/solutions-de.itemis.mps.editor.math.runtime-models" prefix="module/models" />
     </jar>
+    <mkdir dir="${build.tmp}/default/de.itemis.mps.editor.math.symbols.jar" />
+    <mkdir dir="${build.tmp}/default/de.itemis.mps.editor.math.symbols.jar/META-INF" />
+    <echoxml file="${build.tmp}/default/de.itemis.mps.editor.math.symbols.jar/META-INF/module.xml">
+      <module namespace="de.itemis.mps.editor.math.symbols" type="solution" uuid="0fcee1cf-8f59-441b-b9c7-7ff7bdd6bc97">
+        <dependencies>
+          <module ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" />
+          <module ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" />
+          <module ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224(MPS.Editor)" />
+          <module ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" />
+          <module ref="4c6a28d1-2c60-478d-b36e-db9b3cbb21fb(closures.runtime)" />
+          <module ref="9b80526e-f0bf-4992-bdf5-cee39c1833f3(collections.runtime)" />
+          <module ref="a9a7bf57-15e6-4d28-adc1-be146e415fe5(de.itemis.mps.editor.math.runtime)" />
+          <module ref="9a4afe51-f114-4595-b5df-048ce3c596be(jetbrains.mps.runtime)" />
+        </dependencies>
+        <sources jar="de.itemis.mps.editor.math.symbols-src.jar" descriptor="de.itemis.mps.editor.math.symbols.msd" />
+      </module>
+    </echoxml>
+    <jar destfile="${build.tmp}/default/mps-math-editor.zip/mps-math-editor/languages/mps-math-editor/de.itemis.mps.editor.math.symbols.jar">
+      <fileset dir="${build.tmp}/java/out/de.itemis.mps.editor.math.symbols" />
+      <fileset dir="${basedir}/solutions/de.itemis.mps.editor.math.symbols" includes="icons/**, resources/**" />
+      <fileset dir="${build.tmp}/default/de.itemis.mps.editor.math.symbols.jar" />
+    </jar>
+    <copyModels todir="${build.tmp}/customProcessors/copyModels/solutions-de.itemis.mps.editor.math.symbols-models">
+      <fileset dir="${basedir}/solutions/de.itemis.mps.editor.math.symbols/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
+    </copyModels>
+    <jar destfile="${build.tmp}/default/mps-math-editor.zip/mps-math-editor/languages/mps-math-editor/de.itemis.mps.editor.math.symbols-src.jar">
+      <fileset dir="${basedir}/solutions/de.itemis.mps.editor.math.symbols/source_gen" includes="**/*.java" />
+      <zipfileset file="${basedir}/solutions/de.itemis.mps.editor.math.symbols/de.itemis.mps.editor.math.symbols.msd" prefix="module" />
+      <zipfileset dir="${build.tmp}/customProcessors/copyModels/solutions-de.itemis.mps.editor.math.symbols-models" prefix="module/models" />
+    </jar>
     <mkdir dir="${build.tmp}/default/de.itemis.mps.editor.math.jar" />
     <mkdir dir="${build.tmp}/default/de.itemis.mps.editor.math.jar/META-INF" />
     <echoxml file="${build.tmp}/default/de.itemis.mps.editor.math.jar/META-INF/module.xml">
@@ -160,9 +190,6 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-de.itemis.mps.editor.math.notations-generator-template">
       <fileset dir="${basedir}/languages/de.itemis.mps.editor.math.notations/generator/template" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-de.itemis.mps.editor.math.notations-languageAccessories">
-      <fileset dir="${basedir}/languages/de.itemis.mps.editor.math.notations/languageAccessories" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
-    </copyModels>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-de.itemis.mps.editor.math.notations-languageModels">
       <fileset dir="${basedir}/languages/de.itemis.mps.editor.math.notations/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
@@ -171,7 +198,6 @@
       <fileset dir="${basedir}/languages/de.itemis.mps.editor.math.notations/source_gen" includes="**/*.java" />
       <zipfileset file="${basedir}/languages/de.itemis.mps.editor.math.notations/de.itemis.mps.editor.math.notations.mpl" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-de.itemis.mps.editor.math.notations-generator-template" prefix="module/generator/template" />
-      <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-de.itemis.mps.editor.math.notations-languageAccessories" prefix="module/languageAccessories" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-de.itemis.mps.editor.math.notations-languageModels" prefix="module/languageModels" />
     </jar>
     <zip destfile="${build.layout}/mps-math-editor.zip">
@@ -191,7 +217,7 @@
     <delete dir="${build.layout}" />
   </target>
   
-  <target name="compileJava" depends="java.compile.de.itemis.mps.editor.math.build, java.compile.de.itemis.mps.editor.math.runtime, java.compile.de.itemis.mps.editor.math, java.compile.de.itemis.mps.editor.math#1546395981771464573, java.compile.de.itemis.mps.editor.math.notations, java.compile.de.itemis.mps.editor.math.notations#175930839491770475" />
+  <target name="compileJava" depends="java.compile.de.itemis.mps.editor.math.build, java.compile.de.itemis.mps.editor.math.runtime, java.compile.de.itemis.mps.editor.math.symbols, java.compile.de.itemis.mps.editor.math, java.compile.de.itemis.mps.editor.math#1546395981771464573, java.compile.de.itemis.mps.editor.math.notations, java.compile.de.itemis.mps.editor.math.notations#175930839491770475" />
   
   <target name="processResources" />
   
@@ -270,7 +296,9 @@
         <module file="${basedir}/languages/de.itemis.mps.editor.math.notations/de.itemis.mps.editor.math.notations.mpl" />
         <module file="${basedir}/solutions/de.itemis.mps.editor.math.runtime/de.itemis.mps.editor.math.runtime.msd" />
       </chunk>
-      <chunk />
+      <chunk>
+        <module file="${basedir}/solutions/de.itemis.mps.editor.math.symbols/de.itemis.mps.editor.math.symbols.msd" />
+      </chunk>
       <jvmargs>
         <arg value="-Xmx512m" />
       </jvmargs>
@@ -314,6 +342,38 @@
         <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
         <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
+        <fileset file="${artifacts.mps}/lib/annotations.jar" />
+        <fileset file="${artifacts.mps}/lib/jdom.jar" />
+        <fileset file="${artifacts.mps}/lib/log4j.jar" />
+        <fileset file="${artifacts.mps}/lib/ecj-4.2.1.jar" />
+        <fileset file="${artifacts.mps}/lib/trove4j.jar" />
+        <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
+        <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
+        <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
+        <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
+      </classpath>
+    </javac>
+  </target>
+  
+  <target name="java.compile.de.itemis.mps.editor.math.symbols" depends="java.compile.de.itemis.mps.editor.math.runtime, fetchDependencies">
+    <mkdir dir="${basedir}/solutions/de.itemis.mps.editor.math.symbols/source_gen" />
+    <mkdir dir="${build.tmp}/java/out/de.itemis.mps.editor.math.symbols" />
+    <javac destdir="${build.tmp}/java/out/de.itemis.mps.editor.math.symbols" fork="true" includeantruntime="false">
+      <compilerarg value="-Xlint:none" />
+      <src>
+        <path location="${basedir}/solutions/de.itemis.mps.editor.math.symbols/source_gen" />
+      </src>
+      <classpath>
+        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-core.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
+        <pathelement path="${build.tmp}/java/out/de.itemis.mps.editor.math.runtime" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
@@ -470,7 +530,7 @@
     </javac>
   </target>
   
-  <target name="java.compile.de.itemis.mps.editor.math.notations#175930839491770475" depends="java.compile.de.itemis.mps.editor.math, java.compile.de.itemis.mps.editor.math.notations, java.compile.de.itemis.mps.editor.math.runtime, fetchDependencies">
+  <target name="java.compile.de.itemis.mps.editor.math.notations#175930839491770475" depends="java.compile.de.itemis.mps.editor.math, java.compile.de.itemis.mps.editor.math.notations, java.compile.de.itemis.mps.editor.math.runtime, java.compile.de.itemis.mps.editor.math.symbols, fetchDependencies">
     <mkdir dir="${basedir}/languages/de.itemis.mps.editor.math.notations/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/de.itemis.mps.editor.math.notations#175930839491770475" />
     <javac destdir="${build.tmp}/java/out/de.itemis.mps.editor.math.notations#175930839491770475" fork="true" includeantruntime="false">
@@ -491,6 +551,7 @@
         <pathelement path="${build.tmp}/java/out/de.itemis.mps.editor.math" />
         <pathelement path="${build.tmp}/java/out/de.itemis.mps.editor.math.notations" />
         <pathelement path="${build.tmp}/java/out/de.itemis.mps.editor.math.runtime" />
+        <pathelement path="${build.tmp}/java/out/de.itemis.mps.editor.math.symbols" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
@@ -526,5 +587,6 @@
     <delete dir="${basedir}/solutions/de.itemis.mps.editor.math.runtime/source_gen" />
     <delete dir="${basedir}/languages/de.itemis.mps.editor.math/generator/source_gen" />
     <delete dir="${basedir}/languages/de.itemis.mps.editor.math.notations/generator/source_gen" />
+    <delete dir="${basedir}/solutions/de.itemis.mps.editor.math.symbols/source_gen" />
   </target>
 </project>
