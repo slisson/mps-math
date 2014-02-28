@@ -20,7 +20,7 @@
   <import index="ar19" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.awt.geom(JDK/java.awt.geom@java_stub)" version="-1" />
   <import index="x4fh" modelUID="r:6d7e624e-8f0d-49a1-aae8-a4cb94dbe189(de.itemis.mps.editor.math.structure)" version="2" />
   <import index="diuo" modelUID="r:98c96203-129a-452b-86c3-5a06ed0a0d9e(de.itemis.mps.editor.math.notations.structure)" version="0" />
-  <import index="jtav" modelUID="r:da18028b-cf2b-4c57-90af-0140776cf78b(de.itemis.mps.editor.math.notations.symbols)" version="-1" />
+  <import index="zva4" modelUID="r:bd4abf95-b43c-45fd-92b4-452c4b7daf58(de.itemis.mps.editor.math.symbols.symbols)" version="-1" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tpf8" modelUID="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" version="2" implicit="yes" />
   <import index="tpc2" modelUID="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" version="32" implicit="yes" />
@@ -1427,10 +1427,10 @@
     <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="diuo.8658283006837849144" resolveInfo="ParenthesesEditor" />
     <node role="contentNode" roleId="tpf8.1092060348987" type="diuo.BracketsEditor" typeId="diuo.9120555111532911681" id="2974925064250053524" nodeInfo="ng">
       <node role="leftBracket" roleId="diuo.9120555111532935490" type="x4fh.PredefinedMathSymbolReference" typeId="x4fh.9120555111513574294" id="2974925064250165343" nodeInfo="ng">
-        <link role="decl" roleId="x4fh.9120555111513576085" targetNodeId="jtav.9120555111518856688" resolveInfo="LeftParenthesis" />
+        <link role="decl" roleId="x4fh.9120555111513576085" targetNodeId="zva4.7492471990419526869" resolveInfo="LeftParenthesis" />
       </node>
       <node role="rightBracket" roleId="diuo.9120555111532935498" type="x4fh.PredefinedMathSymbolReference" typeId="x4fh.9120555111513574294" id="2974925064250165339" nodeInfo="ng">
-        <link role="decl" roleId="x4fh.9120555111513576085" targetNodeId="jtav.9120555111518932537" resolveInfo="RightParenthesis" />
+        <link role="decl" roleId="x4fh.9120555111513576085" targetNodeId="zva4.7492471990419526904" resolveInfo="RightParenthesis" />
       </node>
       <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.TemplateFragment" typeId="tpf8.1095672379244" id="2974925064250549587" nodeInfo="ng" />
       <node role="body" roleId="diuo.9120555111532911379" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2974925064250550098" nodeInfo="nn">
@@ -2152,7 +2152,7 @@
       <node role="symbols" roleId="x4fh.9120555111513756053" type="x4fh.MathSymbolDecl" typeId="x4fh.9120555111513755311" id="9120555111514139665" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="loopSymbol" />
         <node role="symbol" roleId="x4fh.9120555111513755624" type="x4fh.PredefinedMathSymbolReference" typeId="x4fh.9120555111513574294" id="9120555111525726310" nodeInfo="ng">
-          <link role="decl" roleId="x4fh.9120555111513576085" targetNodeId="jtav.9120555111518856688" resolveInfo="LeftParenthesis" />
+          <link role="decl" roleId="x4fh.9120555111513576085" targetNodeId="zva4.7492471990419526869" resolveInfo="LeftParenthesis" />
           <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.CopySrcNodeMacro" typeId="tpf8.1114706874351" id="9120555111525745161" nodeInfo="nn">
             <node role="sourceNodeQuery" roleId="tpf8.1168024447342" type="tpf8.SourceSubstituteMacro_SourceNodeQuery" typeId="tpf8.1168024337012" id="9120555111525745162" nodeInfo="nn">
               <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="9120555111525745163" nodeInfo="sn">
@@ -2172,13 +2172,13 @@
       <node role="symbols" roleId="x4fh.9120555111513756053" type="x4fh.MathSymbolDecl" typeId="x4fh.9120555111513755311" id="9120555111518964775" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="leftParenthesis" />
         <node role="symbol" roleId="x4fh.9120555111513755624" type="x4fh.PredefinedMathSymbolReference" typeId="x4fh.9120555111513574294" id="9120555111525688610" nodeInfo="ng">
-          <link role="decl" roleId="x4fh.9120555111513576085" targetNodeId="jtav.9120555111518856688" resolveInfo="LeftParenthesis" />
+          <link role="decl" roleId="x4fh.9120555111513576085" targetNodeId="zva4.7492471990419526869" resolveInfo="LeftParenthesis" />
         </node>
       </node>
       <node role="symbols" roleId="x4fh.9120555111513756053" type="x4fh.MathSymbolDecl" typeId="x4fh.9120555111513755311" id="9120555111518984870" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="rightParenthesis" />
         <node role="symbol" roleId="x4fh.9120555111513755624" type="x4fh.PredefinedMathSymbolReference" typeId="x4fh.9120555111513574294" id="9120555111525707460" nodeInfo="ng">
-          <link role="decl" roleId="x4fh.9120555111513576085" targetNodeId="jtav.9120555111518932537" resolveInfo="RightParenthesis" />
+          <link role="decl" roleId="x4fh.9120555111513576085" targetNodeId="zva4.7492471990419526904" resolveInfo="RightParenthesis" />
         </node>
       </node>
       <node role="childCells" roleId="x4fh.1330709772460755941" type="x4fh.ChildCellDecl" typeId="x4fh.1330709772460755775" id="9120555111525586420" nodeInfo="ng">
@@ -2966,7 +2966,7 @@
       <node role="symbols" roleId="x4fh.9120555111513756053" type="x4fh.MathSymbolDecl" typeId="x4fh.9120555111513755311" id="9120555111533007217" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="leftBracket" />
         <node role="symbol" roleId="x4fh.9120555111513755624" type="x4fh.PredefinedMathSymbolReference" typeId="x4fh.9120555111513574294" id="9120555111533020811" nodeInfo="ng">
-          <link role="decl" roleId="x4fh.9120555111513576085" targetNodeId="jtav.9120555111518856688" resolveInfo="LeftParenthesis" />
+          <link role="decl" roleId="x4fh.9120555111513576085" targetNodeId="zva4.7492471990419526869" resolveInfo="LeftParenthesis" />
           <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.CopySrcNodeMacro" typeId="tpf8.1114706874351" id="9120555111533032416" nodeInfo="nn">
             <node role="sourceNodeQuery" roleId="tpf8.1168024447342" type="tpf8.SourceSubstituteMacro_SourceNodeQuery" typeId="tpf8.1168024337012" id="9120555111533032417" nodeInfo="nn">
               <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="9120555111533032418" nodeInfo="sn">
@@ -2986,7 +2986,7 @@
       <node role="symbols" roleId="x4fh.9120555111513756053" type="x4fh.MathSymbolDecl" typeId="x4fh.9120555111513755311" id="9120555111533014011" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="rightBracket" />
         <node role="symbol" roleId="x4fh.9120555111513755624" type="x4fh.PredefinedMathSymbolReference" typeId="x4fh.9120555111513574294" id="9120555111533026613" nodeInfo="ng">
-          <link role="decl" roleId="x4fh.9120555111513576085" targetNodeId="jtav.9120555111518932537" resolveInfo="RightParenthesis" />
+          <link role="decl" roleId="x4fh.9120555111513576085" targetNodeId="zva4.7492471990419526904" resolveInfo="RightParenthesis" />
           <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.CopySrcNodeMacro" typeId="tpf8.1114706874351" id="9120555111533032682" nodeInfo="nn">
             <node role="sourceNodeQuery" roleId="tpf8.1168024447342" type="tpf8.SourceSubstituteMacro_SourceNodeQuery" typeId="tpf8.1168024337012" id="9120555111533032683" nodeInfo="nn">
               <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="9120555111533032684" nodeInfo="sn">
@@ -3266,7 +3266,7 @@
       <node role="symbols" roleId="x4fh.9120555111513756053" type="x4fh.MathSymbolDecl" typeId="x4fh.9120555111513755311" id="8128745852731291409" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="symbol" />
         <node role="symbol" roleId="x4fh.9120555111513755624" type="x4fh.PredefinedMathSymbolReference" typeId="x4fh.9120555111513574294" id="8128745852731291410" nodeInfo="ng">
-          <link role="decl" roleId="x4fh.9120555111513576085" targetNodeId="jtav.2974925064252322992" resolveInfo="ArrowLeft" />
+          <link role="decl" roleId="x4fh.9120555111513576085" targetNodeId="zva4.7492471990419526731" resolveInfo="ArrowLeft" />
           <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.CopySrcNodeMacro" typeId="tpf8.1114706874351" id="8128745852731291411" nodeInfo="nn">
             <node role="sourceNodeQuery" roleId="tpf8.1168024447342" type="tpf8.SourceSubstituteMacro_SourceNodeQuery" typeId="tpf8.1168024337012" id="8128745852731291412" nodeInfo="nn">
               <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="8128745852731291413" nodeInfo="sn">

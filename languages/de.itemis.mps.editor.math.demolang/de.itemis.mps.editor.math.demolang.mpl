@@ -30,6 +30,7 @@
     <dependency reexport="false">1ed103c3-3aa6-49b7-9c21-6765ee11f224(MPS.Editor)</dependency>
     <dependency reexport="false">e359e0a2-368a-4c40-ae2a-e5a09f9cfd58(de.itemis.mps.editor.math.notations)</dependency>
     <dependency reexport="false">a9a7bf57-15e6-4d28-adc1-be146e415fe5(de.itemis.mps.editor.math.runtime)</dependency>
+    <dependency reexport="false">0fcee1cf-8f59-441b-b9c7-7ff7bdd6bc97(de.itemis.mps.editor.math.symbols)</dependency>
   </dependencies>
   <usedLanguages>
     <usedLanguage>766348f7-6a67-4b85-9323-384840132299(de.itemis.mps.editor.math)</usedLanguage>
