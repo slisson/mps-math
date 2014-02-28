@@ -83,7 +83,7 @@
   <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="8658283006823693502" nodeInfo="ng">
     <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="96v7.8658283006823693128" resolveInfo="Abs" />
     <node role="cellModel" roleId="tpc2.1080736633877" type="diuo.AbsEditor" typeId="diuo.8658283006837840915" id="8658283006840537361" nodeInfo="ng">
-      <node role="body" roleId="diuo.8658283006838028563" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="8658283006840537373" nodeInfo="ng">
+      <node role="body" roleId="diuo.9120555111532911379" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="8658283006840537373" nodeInfo="ng">
         <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="96v7.8658283006823693492" />
       </node>
     </node>
@@ -119,7 +119,7 @@
   <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="8658283006836073848" nodeInfo="ng">
     <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="96v7.8658283006836059817" resolveInfo="SquareBrackets" />
     <node role="cellModel" roleId="tpc2.1080736633877" type="diuo.SquareBracketsEditor" typeId="diuo.8658283006837850119" id="8658283006840667805" nodeInfo="ng">
-      <node role="body" roleId="diuo.8658283006838153056" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="8658283006840667815" nodeInfo="ng">
+      <node role="body" roleId="diuo.9120555111532911379" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="8658283006840667815" nodeInfo="ng">
         <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="96v7.8658283006836285096" />
       </node>
     </node>
@@ -127,7 +127,7 @@
   <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="8658283006837142952" nodeInfo="ng">
     <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="96v7.8658283006837134389" resolveInfo="CurlyBrackets" />
     <node role="cellModel" roleId="tpc2.1080736633877" type="diuo.CurlyBracketsEditor" typeId="diuo.8658283006837847844" id="8658283006840544975" nodeInfo="ng">
-      <node role="body" roleId="diuo.8658283006838051878" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="8658283006840544985" nodeInfo="ng">
+      <node role="body" roleId="diuo.9120555111532911379" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="8658283006840544985" nodeInfo="ng">
         <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="96v7.8658283006837138599" />
       </node>
     </node>
@@ -471,6 +471,17 @@
         <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="9120555111529631193" nodeInfo="ng">
           <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="96v7.175930839492098775" />
         </node>
+      </node>
+    </node>
+  </root>
+  <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="8128745852732080329" nodeInfo="ng">
+    <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="96v7.8128745852732080090" resolveInfo="Vector" />
+    <node role="cellModel" roleId="tpc2.1080736633877" type="diuo.AboveEditor" typeId="diuo.2974925064252956766" id="8128745852732089870" nodeInfo="ng">
+      <node role="body" roleId="diuo.8128745852730919019" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="8128745852732133370" nodeInfo="ng">
+        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="96v7.8128745852732133368" />
+      </node>
+      <node role="symbol" roleId="diuo.8128745852730919021" type="x4fh.PredefinedMathSymbolReference" typeId="x4fh.9120555111513574294" id="2540335204173538778" nodeInfo="ng">
+        <link role="decl" roleId="x4fh.9120555111513576085" targetNodeId="jtav.2974925064252322992" resolveInfo="ArrowLeft" />
       </node>
     </node>
   </root>
