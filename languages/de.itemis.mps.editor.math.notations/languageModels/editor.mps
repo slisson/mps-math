@@ -294,7 +294,7 @@
     <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="diuo.8658283006837848494" resolveInfo="IntegralEditor" />
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="5715455775463752121" nodeInfo="nn">
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="5715455775463752122" nodeInfo="nn">
-        <property name="text" nameId="tpc2.1073389577007" value="LOOP" />
+        <property name="text" nameId="tpc2.1073389577007" value="INTEGRAL" />
         <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.BackgroundColorStyleClassItem" typeId="tpc2.1186404574412" id="5715455775463752123" nodeInfo="nn">
           <property name="color" nameId="tpc2.1186403713874" value="black" />
         </node>
