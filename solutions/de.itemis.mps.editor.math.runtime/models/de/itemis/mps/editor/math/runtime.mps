@@ -2765,7 +2765,7 @@
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PrivateVisibility" typeId="tpee.1146644623116" id="548873803157531102" nodeInfo="nn" />
       <node role="type" roleId="tpee.5680397130376446158" type="tpee.DoubleType" typeId="tpee.1070534513062" id="548873803157531103" nodeInfo="in" />
       <node role="initializer" roleId="tpee.1068431790190" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="548873803157531104" nodeInfo="nn">
-        <property name="value" nameId="tpee.1113006610751" value="0.015" />
+        <property name="value" nameId="tpee.1113006610751" value="0.008" />
       </node>
     </node>
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.StaticFieldDeclaration" typeId="tpee.1070462154015" id="548873803157993586" nodeInfo="igu">
@@ -2776,7 +2776,7 @@
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PrivateVisibility" typeId="tpee.1146644623116" id="548873803157993587" nodeInfo="nn" />
       <node role="type" roleId="tpee.5680397130376446158" type="tpee.DoubleType" typeId="tpee.1070534513062" id="548873803157993588" nodeInfo="in" />
       <node role="initializer" roleId="tpee.1068431790190" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="548873803157993589" nodeInfo="nn">
-        <property name="value" nameId="tpee.1113006610751" value="0.7" />
+        <property name="value" nameId="tpee.1113006610751" value="0.9" />
       </node>
     </node>
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.PlaceholderMember" typeId="tpee.1465982738277781862" id="1330709772417778115" nodeInfo="ngu" />
