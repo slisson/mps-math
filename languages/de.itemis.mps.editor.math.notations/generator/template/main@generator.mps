@@ -2185,12 +2185,14 @@
       </node>
       <node role="symbols" roleId="x4fh.9120555111513756053" type="x4fh.MathSymbolDecl" typeId="x4fh.9120555111513755311" id="9120555111518964775" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="leftParenthesis" />
+        <property name="dontDraw" nameId="x4fh.5098456557389361195" value="true" />
         <node role="symbol" roleId="x4fh.9120555111513755624" type="x4fh.PredefinedMathSymbolReference" typeId="x4fh.9120555111513574294" id="9120555111525688610" nodeInfo="ng">
           <link role="decl" roleId="x4fh.9120555111513576085" targetNodeId="zva4.7492471990419526869" resolveInfo="LeftParenthesis" />
         </node>
       </node>
       <node role="symbols" roleId="x4fh.9120555111513756053" type="x4fh.MathSymbolDecl" typeId="x4fh.9120555111513755311" id="9120555111518984870" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="rightParenthesis" />
+        <property name="dontDraw" nameId="x4fh.5098456557389361195" value="true" />
         <node role="symbol" roleId="x4fh.9120555111513755624" type="x4fh.PredefinedMathSymbolReference" typeId="x4fh.9120555111513574294" id="9120555111525707460" nodeInfo="ng">
           <link role="decl" roleId="x4fh.9120555111513576085" targetNodeId="zva4.7492471990419526904" resolveInfo="RightParenthesis" />
         </node>

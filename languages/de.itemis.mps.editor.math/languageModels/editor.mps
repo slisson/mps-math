@@ -48,7 +48,7 @@
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNodeList" typeId="tpc2.1073390211982" id="9120555111513756622" nodeInfo="ng">
         <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="x4fh.9120555111513756053" />
-        <node role="cellLayout" roleId="tpc2.1140524464360" type="tpc2.CellLayout_Vertical" typeId="tpc2.1106270571710" id="9120555111513756623" nodeInfo="nn" />
+        <node role="cellLayout" roleId="tpc2.1140524464360" type="tpc2.CellLayout_VerticalGrid" typeId="tpc2.1239814640496" id="5098456557389361883" nodeInfo="nn" />
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="9120555111509036520" nodeInfo="nn">
         <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutNewLineStyleClassItem" typeId="tpc2.1237308012275" id="9120555111509036521" nodeInfo="nn">
@@ -318,6 +318,15 @@
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="9120555111513756025" nodeInfo="ng">
         <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="x4fh.9120555111513755624" />
+      </node>
+    </node>
+    <node role="inspectedCellModel" roleId="tpc2.1078153129734" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="5098456557389520911" nodeInfo="nn">
+      <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Horizontal" typeId="tpc2.1106270549637" id="5098456557389520912" nodeInfo="nn" />
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="5098456557389520939" nodeInfo="nn">
+        <property name="text" nameId="tpc2.1073389577007" value="don't draw:" />
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="5098456557389520988" nodeInfo="ng">
+        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="x4fh.5098456557389361195" resolveInfo="dontDraw" />
       </node>
     </node>
   </root>
