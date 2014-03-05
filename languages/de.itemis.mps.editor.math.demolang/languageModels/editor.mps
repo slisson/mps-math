@@ -151,6 +151,9 @@
     <node role="cellModel" roleId="tpc2.1080736633877" type="diuo.LoopEditor" typeId="diuo.9120555111506449355" id="9120555111527326858" nodeInfo="ng">
       <node role="body" roleId="diuo.9120555111528365390" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="9120555111527355047" nodeInfo="ng">
         <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="96v7.175930839492098783" />
+        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.ForegroundColorStyleClassItem" typeId="tpc2.1186404549998" id="6730500395163614662" nodeInfo="nn">
+          <property name="color" nameId="tpc2.1186403713874" value="DARK_GREEN" />
+        </node>
       </node>
       <node role="symbol" roleId="diuo.9120555111525171587" type="x4fh.PredefinedMathSymbolReference" typeId="x4fh.9120555111513574294" id="5098456557386930556" nodeInfo="ng">
         <link role="decl" roleId="x4fh.9120555111513576085" targetNodeId="zva4.5098456557386888717" resolveInfo="BeautifulSumSymbol3" />
