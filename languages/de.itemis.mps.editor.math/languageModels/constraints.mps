@@ -14,5 +14,14 @@
       </node>
     </node>
   </root>
+  <root type="tp1t.ConceptConstraints" typeId="tp1t.1213093968558" id="981761841405838499" nodeInfo="ng">
+    <link role="concept" roleId="tp1t.1213093996982" targetNodeId="x4fh.9120555111514385514" resolveInfo="MathSymbolReferenceExpression" />
+    <node role="referent" roleId="tp1t.1213100494875" type="tp1t.NodeReferentConstraint" typeId="tp1t.1148687176410" id="981761841405838570" nodeInfo="ng">
+      <link role="applicableLink" roleId="tp1t.1148687202698" targetNodeId="x4fh.9120555111514550842" />
+      <node role="searchScopeFactory" roleId="tp1t.1148687345559" type="tp1t.InheritedNodeScopeFactory" typeId="tp1t.8401916545537438642" id="981761841405838611" nodeInfo="ng">
+        <link role="kind" roleId="tp1t.8401916545537438643" targetNodeId="x4fh.9120555111513755311" resolveInfo="MathSymbolDecl" />
+      </node>
+    </node>
+  </root>
 </model>
 
