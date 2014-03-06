@@ -97,7 +97,7 @@
       <node role="lower" roleId="diuo.5098456557385054782" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="5098456557385295520" nodeInfo="ng">
         <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="96v7.8658283006827657836" />
       </node>
-      <node role="symbol" roleId="diuo.5098456557385054985" type="x4fh.PredefinedMathSymbolReference" typeId="x4fh.9120555111513574294" id="5098456557387065527" nodeInfo="ng">
+      <node role="symbol" roleId="diuo.5098456557385054985" type="x4fh.PredefinedMathSymbolReference" typeId="x4fh.9120555111513574294" id="6730500395164383768" nodeInfo="ng">
         <link role="decl" roleId="x4fh.9120555111513576085" targetNodeId="zva4.5098456557384994608" resolveInfo="FontIntegralSymbol" />
       </node>
     </node>
@@ -155,8 +155,8 @@
           <property name="color" nameId="tpc2.1186403713874" value="DARK_GREEN" />
         </node>
       </node>
-      <node role="symbol" roleId="diuo.9120555111525171587" type="x4fh.PredefinedMathSymbolReference" typeId="x4fh.9120555111513574294" id="5098456557386930556" nodeInfo="ng">
-        <link role="decl" roleId="x4fh.9120555111513576085" targetNodeId="zva4.5098456557386888717" resolveInfo="BeautifulSumSymbol3" />
+      <node role="symbol" roleId="diuo.9120555111525171587" type="x4fh.PredefinedMathSymbolReference" typeId="x4fh.9120555111513574294" id="6730500395164961257" nodeInfo="ng">
+        <link role="decl" roleId="x4fh.9120555111513576085" targetNodeId="zva4.6730500395164522725" resolveInfo="BeautifulSumSymbolSerif" />
       </node>
       <node role="upper" roleId="diuo.9120555111528365391" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="9120555111527355045" nodeInfo="ng">
         <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="96v7.175930839492098780" />
