@@ -5083,82 +5083,53 @@
               </node>
             </node>
           </node>
-          <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="1528489561120079494" nodeInfo="nn" />
-          <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="5098456557385142524" nodeInfo="nn">
-            <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5098456557385142525" nodeInfo="nn">
-              <node role="operand" roleId="tpee.1197027771414" type="x4fh.MathSymbolReferenceExpression" typeId="x4fh.9120555111514385514" id="5098456557385142526" nodeInfo="ng">
+          <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="5098456557385142562" nodeInfo="nn" />
+          <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="1528489561124608774" nodeInfo="nn">
+            <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1528489561124608775" nodeInfo="nn">
+              <node role="operand" roleId="tpee.1197027771414" type="x4fh.MathSymbolReferenceExpression" typeId="x4fh.9120555111514385514" id="1528489561124608776" nodeInfo="ng">
                 <link role="decl" roleId="x4fh.9120555111514550842" targetNodeId="5098456557385142336" resolveInfo="leftParenthesis" />
               </node>
-              <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="5098456557385142527" nodeInfo="nn">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="5nlq.8081971784014514956" resolveInfo="setX" />
-                <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="5098456557385142528" nodeInfo="nn">
-                  <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.VariableReference" typeId="tpee.1068498886296" id="5098456557385142529" nodeInfo="nn">
-                    <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="5098456557385142419" resolveInfo="maxWidth" />
-                  </node>
-                  <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="5098456557385142530" nodeInfo="nn">
-                    <property name="value" nameId="tpee.1068580320021" value="6" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="5098456557385142531" nodeInfo="nn">
-            <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5098456557385142532" nodeInfo="nn">
-              <node role="operand" roleId="tpee.1197027771414" type="x4fh.MathSymbolReferenceExpression" typeId="x4fh.9120555111514385514" id="5098456557385142533" nodeInfo="ng">
-                <link role="decl" roleId="x4fh.9120555111514550842" targetNodeId="5098456557385142336" resolveInfo="leftParenthesis" />
-              </node>
-              <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="5098456557385142534" nodeInfo="nn">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="5nlq.8081971784014516150" resolveInfo="setY" />
-                <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1528489561120145331" nodeInfo="nn">
-                  <node role="operand" roleId="tpee.1197027771414" type="x4fh.ChildCellRef" typeId="x4fh.1330709772460851456" id="1528489561120145261" nodeInfo="ng">
-                    <link role="decl" roleId="x4fh.1330709772460851549" targetNodeId="5098456557385142370" resolveInfo="body" />
-                  </node>
-                  <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1528489561120145826" nodeInfo="nn">
-                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="5nlq.9120555111516285267" resolveInfo="getY" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="5098456557385142540" nodeInfo="nn">
-            <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5098456557385142541" nodeInfo="nn">
-              <node role="operand" roleId="tpee.1197027771414" type="x4fh.MathSymbolReferenceExpression" typeId="x4fh.9120555111514385514" id="5098456557385142542" nodeInfo="ng">
-                <link role="decl" roleId="x4fh.9120555111514550842" targetNodeId="5098456557385142336" resolveInfo="leftParenthesis" />
-              </node>
-              <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="5098456557385142543" nodeInfo="nn">
+              <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1528489561124608777" nodeInfo="nn">
                 <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="5nlq.8081971784014516162" resolveInfo="setHeight" />
-                <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5098456557385142544" nodeInfo="nn">
-                  <node role="operand" roleId="tpee.1197027771414" type="x4fh.ChildCellRef" typeId="x4fh.1330709772460851456" id="5098456557385142545" nodeInfo="ng">
-                    <link role="decl" roleId="x4fh.1330709772460851549" targetNodeId="5098456557385142370" resolveInfo="body" />
+                <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.MulExpression" typeId="tpee.1092119917967" id="1528489561124608778" nodeInfo="nn">
+                  <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="1528489561124608779" nodeInfo="nn">
+                    <property name="value" nameId="tpee.1068580320021" value="2" />
                   </node>
-                  <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="5098456557385142546" nodeInfo="nn">
-                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="5nlq.9120555111516297829" resolveInfo="getHeight" />
+                  <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="1528489561124608780" nodeInfo="nn">
+                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~Math%dmax(double,double)%cdouble" resolveInfo="max" />
+                    <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="e2lb.~Math" resolveInfo="Math" />
+                    <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.VariableReference" typeId="tpee.1068498886296" id="1528489561124608781" nodeInfo="nn">
+                      <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1528489561119922372" resolveInfo="bodyAccent" />
+                    </node>
+                    <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.VariableReference" typeId="tpee.1068498886296" id="1528489561124608782" nodeInfo="nn">
+                      <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1528489561119922378" resolveInfo="bodyDescent" />
+                    </node>
                   </node>
                 </node>
               </node>
             </node>
           </node>
-          <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="5098456557385142547" nodeInfo="nn">
-            <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5098456557385142548" nodeInfo="nn">
-              <node role="operand" roleId="tpee.1197027771414" type="x4fh.MathSymbolReferenceExpression" typeId="x4fh.9120555111514385514" id="5098456557385142549" nodeInfo="ng">
+          <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="1528489561124608783" nodeInfo="nn">
+            <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1528489561124608784" nodeInfo="nn">
+              <node role="operand" roleId="tpee.1197027771414" type="x4fh.MathSymbolReferenceExpression" typeId="x4fh.9120555111514385514" id="1528489561124608785" nodeInfo="ng">
                 <link role="decl" roleId="x4fh.9120555111514550842" targetNodeId="5098456557385142336" resolveInfo="leftParenthesis" />
               </node>
-              <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="5098456557385142550" nodeInfo="nn">
+              <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1528489561124608786" nodeInfo="nn">
                 <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="5nlq.8081971784014516156" resolveInfo="setWidth" />
-                <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="5098456557385142551" nodeInfo="nn">
-                  <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="5098456557385142552" nodeInfo="nn">
+                <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="1528489561124608787" nodeInfo="nn">
+                  <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="1528489561124608788" nodeInfo="nn">
                     <property name="value" nameId="tpee.1068580320021" value="1" />
                   </node>
-                  <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.DivExpression" typeId="tpee.1095950406618" id="5098456557385142553" nodeInfo="nn">
-                    <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5098456557385142554" nodeInfo="nn">
-                      <node role="operand" roleId="tpee.1197027771414" type="x4fh.MathSymbolReferenceExpression" typeId="x4fh.9120555111514385514" id="5098456557385142555" nodeInfo="ng">
+                  <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.DivExpression" typeId="tpee.1095950406618" id="1528489561124608789" nodeInfo="nn">
+                    <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1528489561124608790" nodeInfo="nn">
+                      <node role="operand" roleId="tpee.1197027771414" type="x4fh.MathSymbolReferenceExpression" typeId="x4fh.9120555111514385514" id="1528489561124608791" nodeInfo="ng">
                         <link role="decl" roleId="x4fh.9120555111514550842" targetNodeId="5098456557385142336" resolveInfo="leftParenthesis" />
                       </node>
-                      <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="5098456557385142556" nodeInfo="nn">
+                      <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1528489561124608792" nodeInfo="nn">
                         <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="5nlq.9120555111516297829" resolveInfo="getHeight" />
                       </node>
                     </node>
-                    <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="5098456557385142557" nodeInfo="nn">
+                    <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="1528489561124608793" nodeInfo="nn">
                       <property name="value" nameId="tpee.1068580320021" value="8" />
                     </node>
                   </node>
@@ -5166,17 +5137,74 @@
               </node>
             </node>
           </node>
-          <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="5098456557385142558" nodeInfo="nn">
-            <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5098456557385142559" nodeInfo="nn">
-              <node role="operand" roleId="tpee.1197027771414" type="x4fh.MathSymbolReferenceExpression" typeId="x4fh.9120555111514385514" id="5098456557385142560" nodeInfo="ng">
+          <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="1528489561124608794" nodeInfo="nn">
+            <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1528489561124608795" nodeInfo="nn">
+              <node role="operand" roleId="tpee.1197027771414" type="x4fh.MathSymbolReferenceExpression" typeId="x4fh.9120555111514385514" id="1528489561124608796" nodeInfo="ng">
                 <link role="decl" roleId="x4fh.9120555111514550842" targetNodeId="5098456557385142336" resolveInfo="leftParenthesis" />
               </node>
-              <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="5098456557385142561" nodeInfo="nn">
+              <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1528489561124608797" nodeInfo="nn">
                 <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="5nlq.9120555111514803465" resolveInfo="updateDimension" />
               </node>
             </node>
           </node>
-          <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="5098456557385142562" nodeInfo="nn" />
+          <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="1528489561124608798" nodeInfo="nn">
+            <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1528489561124608799" nodeInfo="nn">
+              <node role="operand" roleId="tpee.1197027771414" type="x4fh.MathSymbolReferenceExpression" typeId="x4fh.9120555111514385514" id="1528489561124608800" nodeInfo="ng">
+                <link role="decl" roleId="x4fh.9120555111514550842" targetNodeId="5098456557385142336" resolveInfo="leftParenthesis" />
+              </node>
+              <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1528489561124608801" nodeInfo="nn">
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="5nlq.8081971784014514956" resolveInfo="setX" />
+                <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="1528489561124608802" nodeInfo="nn">
+                  <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.VariableReference" typeId="tpee.1068498886296" id="1528489561124608803" nodeInfo="nn">
+                    <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="5098456557385142419" resolveInfo="maxWidth" />
+                  </node>
+                  <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="1528489561124608804" nodeInfo="nn">
+                    <property name="value" nameId="tpee.1068580320021" value="6" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="1528489561124608805" nodeInfo="nn">
+            <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1528489561124608806" nodeInfo="nn">
+              <node role="operand" roleId="tpee.1197027771414" type="x4fh.MathSymbolReferenceExpression" typeId="x4fh.9120555111514385514" id="1528489561124608807" nodeInfo="ng">
+                <link role="decl" roleId="x4fh.9120555111514550842" targetNodeId="5098456557385142336" resolveInfo="leftParenthesis" />
+              </node>
+              <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1528489561124608808" nodeInfo="nn">
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="5nlq.8081971784014516150" resolveInfo="setY" />
+                <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.MinusExpression" typeId="tpee.1068581242869" id="1528489561124608809" nodeInfo="nn">
+                  <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.DivExpression" typeId="tpee.1095950406618" id="1528489561124608810" nodeInfo="nn">
+                    <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="1528489561124608811" nodeInfo="nn">
+                      <property name="value" nameId="tpee.1068580320021" value="2" />
+                    </node>
+                    <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1528489561124608812" nodeInfo="nn">
+                      <node role="operand" roleId="tpee.1197027771414" type="x4fh.MathSymbolReferenceExpression" typeId="x4fh.9120555111514385514" id="1528489561124608813" nodeInfo="ng">
+                        <link role="decl" roleId="x4fh.9120555111514550842" targetNodeId="5098456557385142336" resolveInfo="leftParenthesis" />
+                      </node>
+                      <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1528489561124608814" nodeInfo="nn">
+                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="5nlq.9120555111516297829" resolveInfo="getHeight" />
+                      </node>
+                    </node>
+                  </node>
+                  <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1528489561124608815" nodeInfo="nn">
+                    <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1528489561124608816" nodeInfo="nn">
+                      <node role="operand" roleId="tpee.1197027771414" type="x4fh.MathSymbolReferenceExpression" typeId="x4fh.9120555111514385514" id="1528489561124627509" nodeInfo="ng">
+                        <link role="decl" roleId="x4fh.9120555111514550842" targetNodeId="5098456557385142313" resolveInfo="symbol" />
+                      </node>
+                      <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1528489561124608818" nodeInfo="nn">
+                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="5nlq.9120555111517754517" resolveInfo="getBounds" />
+                      </node>
+                    </node>
+                    <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1528489561124608819" nodeInfo="nn">
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ar19.~RectangularShape%dgetCenterY()%cdouble" resolveInfo="getCenterY" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="1528489561124586219" nodeInfo="nn" />
+          <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="1528489561124591823" nodeInfo="nn" />
           <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="5098456557385142563" nodeInfo="nn">
             <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5098456557385142564" nodeInfo="nn">
               <node role="operand" roleId="tpee.1197027771414" type="x4fh.ChildCellRef" typeId="x4fh.1330709772460851456" id="5098456557385142565" nodeInfo="ng">
@@ -5205,92 +5233,53 @@
               </node>
             </node>
           </node>
-          <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="5098456557385142581" nodeInfo="nn" />
-          <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="5098456557385142582" nodeInfo="nn">
-            <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5098456557385142583" nodeInfo="nn">
-              <node role="operand" roleId="tpee.1197027771414" type="x4fh.MathSymbolReferenceExpression" typeId="x4fh.9120555111514385514" id="5098456557385142584" nodeInfo="ng">
+          <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="1528489561124696960" nodeInfo="nn" />
+          <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="1528489561124679869" nodeInfo="nn">
+            <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1528489561124679870" nodeInfo="nn">
+              <node role="operand" roleId="tpee.1197027771414" type="x4fh.MathSymbolReferenceExpression" typeId="x4fh.9120555111514385514" id="1528489561124679871" nodeInfo="ng">
                 <link role="decl" roleId="x4fh.9120555111514550842" targetNodeId="5098456557385142338" resolveInfo="rightParenthesis" />
               </node>
-              <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="5098456557385142585" nodeInfo="nn">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="5nlq.8081971784014514956" resolveInfo="setX" />
-                <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="5098456557385142586" nodeInfo="nn">
-                  <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5098456557385142587" nodeInfo="nn">
-                    <node role="operand" roleId="tpee.1197027771414" type="x4fh.ChildCellRef" typeId="x4fh.1330709772460851456" id="5098456557385142588" nodeInfo="ng">
-                      <link role="decl" roleId="x4fh.1330709772460851549" targetNodeId="5098456557385142370" resolveInfo="body" />
-                    </node>
-                    <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="5098456557385142589" nodeInfo="nn">
-                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="5nlq.9120555111516290099" resolveInfo="getWidth" />
-                    </node>
-                  </node>
-                  <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5098456557385142590" nodeInfo="nn">
-                    <node role="operand" roleId="tpee.1197027771414" type="x4fh.ChildCellRef" typeId="x4fh.1330709772460851456" id="5098456557385142591" nodeInfo="ng">
-                      <link role="decl" roleId="x4fh.1330709772460851549" targetNodeId="5098456557385142370" resolveInfo="body" />
-                    </node>
-                    <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="5098456557385142592" nodeInfo="nn">
-                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="5nlq.9120555111516280549" resolveInfo="getX" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="5098456557385142593" nodeInfo="nn">
-            <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5098456557385142594" nodeInfo="nn">
-              <node role="operand" roleId="tpee.1197027771414" type="x4fh.MathSymbolReferenceExpression" typeId="x4fh.9120555111514385514" id="5098456557385142595" nodeInfo="ng">
-                <link role="decl" roleId="x4fh.9120555111514550842" targetNodeId="5098456557385142338" resolveInfo="rightParenthesis" />
-              </node>
-              <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="5098456557385142596" nodeInfo="nn">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="5nlq.8081971784014516150" resolveInfo="setY" />
-                <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1528489561120148299" nodeInfo="nn">
-                  <node role="operand" roleId="tpee.1197027771414" type="x4fh.MathSymbolReferenceExpression" typeId="x4fh.9120555111514385514" id="1528489561120147966" nodeInfo="ng">
-                    <link role="decl" roleId="x4fh.9120555111514550842" targetNodeId="5098456557385142336" resolveInfo="leftParenthesis" />
-                  </node>
-                  <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1528489561120149020" nodeInfo="nn">
-                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="5nlq.9120555111516285267" resolveInfo="getY" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="5098456557385142600" nodeInfo="nn">
-            <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5098456557385142601" nodeInfo="nn">
-              <node role="operand" roleId="tpee.1197027771414" type="x4fh.MathSymbolReferenceExpression" typeId="x4fh.9120555111514385514" id="5098456557385142602" nodeInfo="ng">
-                <link role="decl" roleId="x4fh.9120555111514550842" targetNodeId="5098456557385142338" resolveInfo="rightParenthesis" />
-              </node>
-              <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="5098456557385142603" nodeInfo="nn">
+              <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1528489561124679872" nodeInfo="nn">
                 <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="5nlq.8081971784014516162" resolveInfo="setHeight" />
-                <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1528489561120146373" nodeInfo="nn">
-                  <node role="operand" roleId="tpee.1197027771414" type="x4fh.MathSymbolReferenceExpression" typeId="x4fh.9120555111514385514" id="1528489561120146028" nodeInfo="ng">
-                    <link role="decl" roleId="x4fh.9120555111514550842" targetNodeId="5098456557385142336" resolveInfo="leftParenthesis" />
+                <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.MulExpression" typeId="tpee.1092119917967" id="1528489561124679873" nodeInfo="nn">
+                  <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="1528489561124679874" nodeInfo="nn">
+                    <property name="value" nameId="tpee.1068580320021" value="2" />
                   </node>
-                  <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1528489561120147695" nodeInfo="nn">
-                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="5nlq.9120555111516297829" resolveInfo="getHeight" />
+                  <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="1528489561124679875" nodeInfo="nn">
+                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~Math%dmax(double,double)%cdouble" resolveInfo="max" />
+                    <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="e2lb.~Math" resolveInfo="Math" />
+                    <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.VariableReference" typeId="tpee.1068498886296" id="1528489561124679876" nodeInfo="nn">
+                      <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1528489561119922372" resolveInfo="bodyAccent" />
+                    </node>
+                    <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.VariableReference" typeId="tpee.1068498886296" id="1528489561124679877" nodeInfo="nn">
+                      <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1528489561119922378" resolveInfo="bodyDescent" />
+                    </node>
                   </node>
                 </node>
               </node>
             </node>
           </node>
-          <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="5098456557385142607" nodeInfo="nn">
-            <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5098456557385142608" nodeInfo="nn">
-              <node role="operand" roleId="tpee.1197027771414" type="x4fh.MathSymbolReferenceExpression" typeId="x4fh.9120555111514385514" id="5098456557385142609" nodeInfo="ng">
+          <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="1528489561124679878" nodeInfo="nn">
+            <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1528489561124679879" nodeInfo="nn">
+              <node role="operand" roleId="tpee.1197027771414" type="x4fh.MathSymbolReferenceExpression" typeId="x4fh.9120555111514385514" id="1528489561124679880" nodeInfo="ng">
                 <link role="decl" roleId="x4fh.9120555111514550842" targetNodeId="5098456557385142338" resolveInfo="rightParenthesis" />
               </node>
-              <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="5098456557385142610" nodeInfo="nn">
+              <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1528489561124679881" nodeInfo="nn">
                 <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="5nlq.8081971784014516156" resolveInfo="setWidth" />
-                <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="5098456557385142611" nodeInfo="nn">
-                  <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="5098456557385142612" nodeInfo="nn">
+                <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="1528489561124679882" nodeInfo="nn">
+                  <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="1528489561124679883" nodeInfo="nn">
                     <property name="value" nameId="tpee.1068580320021" value="1" />
                   </node>
-                  <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.DivExpression" typeId="tpee.1095950406618" id="5098456557385142613" nodeInfo="nn">
-                    <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5098456557385142614" nodeInfo="nn">
-                      <node role="operand" roleId="tpee.1197027771414" type="x4fh.MathSymbolReferenceExpression" typeId="x4fh.9120555111514385514" id="5098456557385142615" nodeInfo="ng">
+                  <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.DivExpression" typeId="tpee.1095950406618" id="1528489561124679884" nodeInfo="nn">
+                    <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1528489561124679885" nodeInfo="nn">
+                      <node role="operand" roleId="tpee.1197027771414" type="x4fh.MathSymbolReferenceExpression" typeId="x4fh.9120555111514385514" id="1528489561124679886" nodeInfo="ng">
                         <link role="decl" roleId="x4fh.9120555111514550842" targetNodeId="5098456557385142338" resolveInfo="rightParenthesis" />
                       </node>
-                      <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="5098456557385142616" nodeInfo="nn">
+                      <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1528489561124679887" nodeInfo="nn">
                         <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="5nlq.9120555111516297829" resolveInfo="getHeight" />
                       </node>
                     </node>
-                    <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="5098456557385142617" nodeInfo="nn">
+                    <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="1528489561124679888" nodeInfo="nn">
                       <property name="value" nameId="tpee.1068580320021" value="8" />
                     </node>
                   </node>
@@ -5298,13 +5287,79 @@
               </node>
             </node>
           </node>
-          <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="5098456557385142618" nodeInfo="nn">
-            <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5098456557385142619" nodeInfo="nn">
-              <node role="operand" roleId="tpee.1197027771414" type="x4fh.MathSymbolReferenceExpression" typeId="x4fh.9120555111514385514" id="5098456557385142620" nodeInfo="ng">
+          <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="1528489561124679889" nodeInfo="nn">
+            <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1528489561124679890" nodeInfo="nn">
+              <node role="operand" roleId="tpee.1197027771414" type="x4fh.MathSymbolReferenceExpression" typeId="x4fh.9120555111514385514" id="1528489561124679891" nodeInfo="ng">
                 <link role="decl" roleId="x4fh.9120555111514550842" targetNodeId="5098456557385142338" resolveInfo="rightParenthesis" />
               </node>
-              <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="5098456557385142621" nodeInfo="nn">
+              <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1528489561124679892" nodeInfo="nn">
                 <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="5nlq.9120555111514803465" resolveInfo="updateDimension" />
+              </node>
+            </node>
+          </node>
+          <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="1528489561124679893" nodeInfo="nn">
+            <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1528489561124679894" nodeInfo="nn">
+              <node role="operand" roleId="tpee.1197027771414" type="x4fh.MathSymbolReferenceExpression" typeId="x4fh.9120555111514385514" id="1528489561124679895" nodeInfo="ng">
+                <link role="decl" roleId="x4fh.9120555111514550842" targetNodeId="5098456557385142338" resolveInfo="rightParenthesis" />
+              </node>
+              <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1528489561124679896" nodeInfo="nn">
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="5nlq.8081971784014514956" resolveInfo="setX" />
+                <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="1528489561124679897" nodeInfo="nn">
+                  <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1528489561124679898" nodeInfo="nn">
+                    <node role="operand" roleId="tpee.1197027771414" type="x4fh.ChildCellRef" typeId="x4fh.1330709772460851456" id="1528489561124679899" nodeInfo="ng">
+                      <link role="decl" roleId="x4fh.1330709772460851549" targetNodeId="5098456557385142370" resolveInfo="body" />
+                    </node>
+                    <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1528489561124679900" nodeInfo="nn">
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="5nlq.9120555111516290099" resolveInfo="getWidth" />
+                    </node>
+                  </node>
+                  <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1528489561124679901" nodeInfo="nn">
+                    <node role="operand" roleId="tpee.1197027771414" type="x4fh.ChildCellRef" typeId="x4fh.1330709772460851456" id="1528489561124679902" nodeInfo="ng">
+                      <link role="decl" roleId="x4fh.1330709772460851549" targetNodeId="5098456557385142370" resolveInfo="body" />
+                    </node>
+                    <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1528489561124679903" nodeInfo="nn">
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="5nlq.9120555111516280549" resolveInfo="getX" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="1528489561124679904" nodeInfo="nn">
+            <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1528489561124679905" nodeInfo="nn">
+              <node role="operand" roleId="tpee.1197027771414" type="x4fh.MathSymbolReferenceExpression" typeId="x4fh.9120555111514385514" id="1528489561124679906" nodeInfo="ng">
+                <link role="decl" roleId="x4fh.9120555111514550842" targetNodeId="5098456557385142338" resolveInfo="rightParenthesis" />
+              </node>
+              <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1528489561124679907" nodeInfo="nn">
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="5nlq.8081971784014516150" resolveInfo="setY" />
+                <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.MinusExpression" typeId="tpee.1068581242869" id="1528489561124679908" nodeInfo="nn">
+                  <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.DivExpression" typeId="tpee.1095950406618" id="1528489561124679909" nodeInfo="nn">
+                    <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="1528489561124679910" nodeInfo="nn">
+                      <property name="value" nameId="tpee.1068580320021" value="2" />
+                    </node>
+                    <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1528489561124679911" nodeInfo="nn">
+                      <node role="operand" roleId="tpee.1197027771414" type="x4fh.MathSymbolReferenceExpression" typeId="x4fh.9120555111514385514" id="1528489561124679912" nodeInfo="ng">
+                        <link role="decl" roleId="x4fh.9120555111514550842" targetNodeId="5098456557385142338" resolveInfo="rightParenthesis" />
+                      </node>
+                      <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1528489561124679913" nodeInfo="nn">
+                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="5nlq.9120555111516297829" resolveInfo="getHeight" />
+                      </node>
+                    </node>
+                  </node>
+                  <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1528489561124679914" nodeInfo="nn">
+                    <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1528489561124679915" nodeInfo="nn">
+                      <node role="operand" roleId="tpee.1197027771414" type="x4fh.MathSymbolReferenceExpression" typeId="x4fh.9120555111514385514" id="1528489561124732121" nodeInfo="ng">
+                        <link role="decl" roleId="x4fh.9120555111514550842" targetNodeId="5098456557385142313" resolveInfo="symbol" />
+                      </node>
+                      <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1528489561124679917" nodeInfo="nn">
+                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="5nlq.9120555111517754517" resolveInfo="getBounds" />
+                      </node>
+                    </node>
+                    <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1528489561124679918" nodeInfo="nn">
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ar19.~RectangularShape%dgetCenterY()%cdouble" resolveInfo="getCenterY" />
+                    </node>
+                  </node>
+                </node>
               </node>
             </node>
           </node>
