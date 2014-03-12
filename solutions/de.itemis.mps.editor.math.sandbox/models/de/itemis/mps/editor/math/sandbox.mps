@@ -228,13 +228,8 @@
               <property name="varName" nameId="96v7.175930839492098773" value="e" />
               <node role="body" roleId="96v7.175930839492098783" type="96v7.Sum" typeId="96v7.175930839491777739" id="8658283006822017475" nodeInfo="ng">
                 <property name="varName" nameId="96v7.175930839492098773" value="g" />
-                <node role="body" roleId="96v7.175930839492098783" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="8658283006822017476" nodeInfo="nn">
-                  <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="8658283006822017477" nodeInfo="nn">
-                    <property name="value" nameId="tpee.1068580320021" value="10" />
-                  </node>
-                  <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="8658283006822017478" nodeInfo="nn">
-                    <property name="value" nameId="tpee.1068580320021" value="1" />
-                  </node>
+                <node role="body" roleId="96v7.175930839492098783" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="8658283006822017477" nodeInfo="nn">
+                  <property name="value" nameId="tpee.1068580320021" value="2010" />
                 </node>
                 <node role="upper" roleId="96v7.175930839492098780" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="8658283006822017479" nodeInfo="nn">
                   <property name="value" nameId="tpee.1068580320021" value="1" />
@@ -247,7 +242,7 @@
                 <property name="value" nameId="tpee.1068580320021" value="1" />
               </node>
               <node role="upper" roleId="96v7.175930839492098780" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="8658283006822017482" nodeInfo="nn">
-                <property name="value" nameId="tpee.1068580320021" value="10" />
+                <property name="value" nameId="tpee.1068580320021" value="2017910" />
               </node>
             </node>
           </node>
@@ -526,26 +521,41 @@
                               <node role="upper" roleId="96v7.175930839492098780" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="8658283006841611571" nodeInfo="nn">
                                 <property name="value" nameId="tpee.1068580320021" value="20" />
                               </node>
-                              <node role="body" roleId="96v7.175930839492098783" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="8658283006841611572" nodeInfo="nn">
-                                <node role="rightExpression" roleId="tpee.1081773367579" type="96v7.Division" typeId="96v7.8081971784017364407" id="8658283006841611573" nodeInfo="ng">
-                                  <node role="upper" roleId="96v7.8081971784017460618" type="96v7.Sum" typeId="96v7.175930839491777739" id="8658283006841611574" nodeInfo="ng">
-                                    <property name="varName" nameId="96v7.175930839492098773" value="a" />
-                                    <node role="lower" roleId="96v7.175930839492098775" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="8658283006841611575" nodeInfo="nn">
-                                      <property name="value" nameId="tpee.1068580320021" value="10" />
-                                    </node>
-                                    <node role="upper" roleId="96v7.175930839492098780" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="8658283006841611576" nodeInfo="nn">
-                                      <property name="value" nameId="tpee.1068580320021" value="20" />
-                                    </node>
-                                    <node role="body" roleId="96v7.175930839492098783" type="tpee.VariableReference" typeId="tpee.1068498886296" id="8658283006841611577" nodeInfo="nn">
-                                      <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1330709772442023166" resolveInfo="i1" />
-                                    </node>
+                              <node role="body" roleId="96v7.175930839492098783" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="8029218887506537575" nodeInfo="nn">
+                                <node role="rightExpression" roleId="tpee.1081773367579" type="96v7.Power" typeId="96v7.1330709772460739764" id="8029218887506539124" nodeInfo="ng">
+                                  <node role="base" roleId="96v7.1330709772460739857" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="8029218887506540628" nodeInfo="nn">
+                                    <property name="value" nameId="tpee.1068580320021" value="2" />
                                   </node>
-                                  <node role="lower" roleId="96v7.8081971784017460621" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="8658283006841611578" nodeInfo="nn">
-                                    <property name="value" nameId="tpee.1068580320021" value="10" />
+                                  <node role="exponent" roleId="96v7.1330709772460739874" type="96v7.Division" typeId="96v7.8081971784017364407" id="8029218887506542776" nodeInfo="ng">
+                                    <node role="upper" roleId="96v7.8081971784017460618" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="8029218887506544767" nodeInfo="nn">
+                                      <property name="value" nameId="tpee.1068580320021" value="1" />
+                                    </node>
+                                    <node role="lower" roleId="96v7.8081971784017460621" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="8029218887506544786" nodeInfo="nn">
+                                      <property name="value" nameId="tpee.1068580320021" value="2" />
+                                    </node>
                                   </node>
                                 </node>
-                                <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.VariableReference" typeId="tpee.1068498886296" id="8658283006841611579" nodeInfo="nn">
-                                  <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1330709772442023166" resolveInfo="i1" />
+                                <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="8658283006841611572" nodeInfo="nn">
+                                  <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.VariableReference" typeId="tpee.1068498886296" id="8658283006841611579" nodeInfo="nn">
+                                    <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1330709772442023166" resolveInfo="i1" />
+                                  </node>
+                                  <node role="rightExpression" roleId="tpee.1081773367579" type="96v7.Division" typeId="96v7.8081971784017364407" id="8658283006841611573" nodeInfo="ng">
+                                    <node role="upper" roleId="96v7.8081971784017460618" type="96v7.Sum" typeId="96v7.175930839491777739" id="8658283006841611574" nodeInfo="ng">
+                                      <property name="varName" nameId="96v7.175930839492098773" value="a" />
+                                      <node role="lower" roleId="96v7.175930839492098775" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="8658283006841611575" nodeInfo="nn">
+                                        <property name="value" nameId="tpee.1068580320021" value="10" />
+                                      </node>
+                                      <node role="upper" roleId="96v7.175930839492098780" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="8658283006841611576" nodeInfo="nn">
+                                        <property name="value" nameId="tpee.1068580320021" value="20" />
+                                      </node>
+                                      <node role="body" roleId="96v7.175930839492098783" type="tpee.VariableReference" typeId="tpee.1068498886296" id="8658283006841611577" nodeInfo="nn">
+                                        <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1330709772442023166" resolveInfo="i1" />
+                                      </node>
+                                    </node>
+                                    <node role="lower" roleId="96v7.8081971784017460621" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="8658283006841611578" nodeInfo="nn">
+                                      <property name="value" nameId="tpee.1068580320021" value="10" />
+                                    </node>
+                                  </node>
                                 </node>
                               </node>
                             </node>
