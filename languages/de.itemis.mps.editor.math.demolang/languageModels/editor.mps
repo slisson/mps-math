@@ -257,5 +257,16 @@
       </node>
     </node>
   </root>
+  <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="476096775484143131" nodeInfo="ng">
+    <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="96v7.476096775484142881" resolveInfo="Subscript" />
+    <node role="cellModel" roleId="tpc2.1080736633877" type="diuo.SubscriptEditor" typeId="diuo.5098456557379806995" id="476096775484143184" nodeInfo="ng">
+      <node role="normal" roleId="diuo.5098456557379807209" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="476096775484145490" nodeInfo="ng">
+        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="96v7.476096775484143291" />
+      </node>
+      <node role="subscript" roleId="diuo.5098456557379807247" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="476096775484145496" nodeInfo="ng">
+        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="96v7.476096775484143297" />
+      </node>
+    </node>
+  </root>
 </model>
 
