@@ -8,7 +8,6 @@
   <sourcePath />
   <dependencies>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
-    <dependency reexport="false">ebc3846f-fa92-4849-93e4-dec2faf6b78f(com.mbeddr.mpsutil.lib)</dependency>
     <dependency reexport="false">6ce9daa6-c7bc-4847-a19c-5cd82a4a13fc(de.itemis.mps.editor.math.java)</dependency>
   </dependencies>
   <usedLanguages>
