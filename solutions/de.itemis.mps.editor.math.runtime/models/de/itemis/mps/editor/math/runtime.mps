@@ -31,6 +31,7 @@
   <import index="jxum" modelUID="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.nodeEditor.selection(MPS.Editor/jetbrains.mps.nodeEditor.selection@java_stub)" version="-1" />
   <import index="1rf3" modelUID="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.nodeEditor.actions(MPS.Editor/jetbrains.mps.nodeEditor.actions@java_stub)" version="-1" />
   <import index="ajxo" modelUID="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#org.apache.log4j(MPS.Core/org.apache.log4j@java_stub)" version="-1" />
+  <import index="gvbb" modelUID="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.nodeEditor.sidetransform(MPS.Editor/jetbrains.mps.nodeEditor.sidetransform@java_stub)" version="-1" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="4" implicit="yes" />
   <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" implicit="yes" />
@@ -716,8 +717,8 @@
                         <node role="expression" roleId="tpee.1068580123156" type="tpee.NotExpression" typeId="tpee.1081516740877" id="738396229648861629" nodeInfo="nn">
                           <node role="expression" roleId="tpee.1081516765348" type="tpee.OrExpression" typeId="tpee.1080223426719" id="738396229648880109" nodeInfo="nn">
                             <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.InstanceOfExpression" typeId="tpee.1081256982272" id="738396229648897302" nodeInfo="nn">
-                              <node role="classType" roleId="tpee.1081256993305" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="738396229648904863" nodeInfo="in">
-                                <link role="classifier" roleId="tpee.1107535924139" targetNodeId="9a8.~EditorManager$EditorCell_STHint" resolveInfo="EditorManager.EditorCell_STHint" />
+                              <node role="classType" roleId="tpee.1081256993305" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="2078234446018474777" nodeInfo="in">
+                                <link role="classifier" roleId="tpee.1107535924139" targetNodeId="gvbb.~EditorCell_STHint" resolveInfo="EditorCell_STHint" />
                               </node>
                               <node role="leftExpression" roleId="tpee.1081256993304" type="tpee.VariableReference" typeId="tpee.1068498886296" id="738396229648887638" nodeInfo="nn">
                                 <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="738396229648781297" resolveInfo="it" />
@@ -2299,8 +2300,8 @@
             </node>
           </node>
           <node role="condition" roleId="tpee.1068580123160" type="tpee.InstanceOfExpression" typeId="tpee.1081256982272" id="738396229650939982" nodeInfo="nn">
-            <node role="classType" roleId="tpee.1081256993305" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="738396229650957620" nodeInfo="in">
-              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="9a8.~EditorManager$EditorCell_STHint" resolveInfo="EditorManager.EditorCell_STHint" />
+            <node role="classType" roleId="tpee.1081256993305" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="2078234446018270402" nodeInfo="in">
+              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="gvbb.~EditorCell_STHint" resolveInfo="EditorCell_STHint" />
             </node>
             <node role="leftExpression" roleId="tpee.1081256993304" type="tpee.DotExpression" typeId="tpee.1197027756228" id="738396229650886096" nodeInfo="nn">
               <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="738396229650859164" nodeInfo="nn">
@@ -2421,8 +2422,8 @@
             </node>
           </node>
           <node role="condition" roleId="tpee.1068580123160" type="tpee.InstanceOfExpression" typeId="tpee.1081256982272" id="738396229651219966" nodeInfo="nn">
-            <node role="classType" roleId="tpee.1081256993305" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="738396229651238308" nodeInfo="in">
-              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="9a8.~EditorManager$EditorCell_STHint" resolveInfo="EditorManager.EditorCell_STHint" />
+            <node role="classType" roleId="tpee.1081256993305" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="2078234446018274970" nodeInfo="in">
+              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="gvbb.~EditorCell_STHint" resolveInfo="EditorCell_STHint" />
             </node>
             <node role="leftExpression" roleId="tpee.1081256993304" type="tpee.DotExpression" typeId="tpee.1197027756228" id="738396229651118750" nodeInfo="nn">
               <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="738396229651090962" nodeInfo="nn">
