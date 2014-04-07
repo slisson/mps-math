@@ -141,6 +141,19 @@
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="x4fh.9120555111513575398" resolveInfo="IMathSymbol" />
     </node>
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="3911888816461312735" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="leftParanthesis" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="x4fh.9120555111513575398" resolveInfo="IMathSymbol" />
+    </node>
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="3911888816461312738" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="rightParanthesis" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="x4fh.9120555111513575398" resolveInfo="IMathSymbol" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8818660079754148371" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.3393165121846091586" resolveInfo="ICanSuppressErrors" />
+    </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="9120555111528365065" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="AbstractLoopEditor" />
@@ -294,6 +307,48 @@
       <property name="role" nameId="tpce.1071599776563" value="symbol" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="x4fh.9120555111513575398" resolveInfo="IMathSymbol" />
+    </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3911888816471862941" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="OverreachingBracketsEditor" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="math.overreachingBrackets" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="9120555111532911681" resolveInfo="BracketsEditor" />
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="3911888816471862993" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="overreachTop" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983657062" resolveInfo="integer" />
+    </node>
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="3911888816471863052" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="overreachBottom" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983657062" resolveInfo="integer" />
+    </node>
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="3911888816471863055" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="insetLeft" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpc2.1239805001815" resolveInfo="_FloatOrInteger_String" />
+    </node>
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="3911888816471863059" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="insetRight" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpc2.1239805001815" resolveInfo="_FloatOrInteger_String" />
+    </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3911888816474744323" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="OverreachingLoopEditor" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="math.overreachingLoop" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="9120555111506449355" resolveInfo="LoopEditor" />
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="3911888816474744398" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="overreachTop" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983657062" resolveInfo="integer" />
+    </node>
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="3911888816474744399" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="overreachBottom" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983657062" resolveInfo="integer" />
+    </node>
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="3911888816474744400" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="insetLeft" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpc2.1239805001815" resolveInfo="_FloatOrInteger_String" />
+    </node>
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="3911888816474744401" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="insetRight" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpc2.1239805001815" resolveInfo="_FloatOrInteger_String" />
     </node>
   </root>
 </model>

@@ -243,5 +243,10 @@
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="symbols" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
   </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8818660079754164050" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="SymbolColorStyleClassItem" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="symbol-color" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpc2.1186403694788" resolveInfo="ColorStyleClassItem" />
+  </root>
 </model>
 
