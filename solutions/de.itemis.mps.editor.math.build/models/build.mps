@@ -301,6 +301,12 @@
               <link role="module" roleId="kdzh.5253498789149547705" targetNodeId="7492471990419587606" resolveInfo="de.itemis.mps.editor.math.symbols" />
             </node>
           </node>
+          <node role="dependencies" roleId="kdzh.5253498789149547704" type="kdzh.BuildMps_ExtractedModuleDependency" typeId="kdzh.7259033139236285166" id="8588142736409304324" nodeInfo="nn">
+            <node role="dependency" roleId="kdzh.7259033139236285167" type="kdzh.BuildMps_ModuleDependencyOnModule" typeId="kdzh.5253498789149585690" id="8588142736409304325" nodeInfo="ng">
+              <property name="reexport" nameId="kdzh.5253498789149547713" value="false" />
+              <link role="module" roleId="kdzh.5253498789149547705" targetNodeId="ffeo.2182758403694705599" resolveInfo="MPS.Editor" />
+            </node>
+          </node>
         </node>
         <node role="runtime" roleId="kdzh.3189788309731917348" type="kdzh.BuildMps_ModuleSolutionRuntime" typeId="kdzh.3189788309731981027" id="8836333081624438334" nodeInfo="ng">
           <link role="solution" roleId="kdzh.3189788309731981028" targetNodeId="4298465686077118667" resolveInfo="de.itemis.mps.editor.math.runtime" />
