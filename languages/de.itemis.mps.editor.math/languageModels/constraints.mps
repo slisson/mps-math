@@ -23,5 +23,8 @@
       </node>
     </node>
   </root>
+  <root type="tp1t.ConceptConstraints" typeId="tp1t.1213093968558" id="8588142736408805306" nodeInfo="ng">
+    <link role="concept" roleId="tp1t.1213093996982" targetNodeId="x4fh.8588142736408788287" resolveInfo="BooleanFunction" />
+  </root>
 </model>
 

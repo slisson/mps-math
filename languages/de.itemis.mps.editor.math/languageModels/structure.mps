@@ -248,5 +248,9 @@
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="symbol-color" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpc2.1186403694788" resolveInfo="ColorStyleClassItem" />
   </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8588142736408788287" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="BooleanFunction" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1137021947720" resolveInfo="ConceptFunction" />
+  </root>
 </model>
 

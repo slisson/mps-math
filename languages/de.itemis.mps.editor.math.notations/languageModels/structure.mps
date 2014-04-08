@@ -151,6 +151,11 @@
       <property name="role" nameId="tpce.1071599776563" value="rightParanthesis" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="x4fh.9120555111513575398" resolveInfo="IMathSymbol" />
     </node>
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="8588142736408847954" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="showParenthesesQuery" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="x4fh.8588142736408788287" resolveInfo="BooleanFunction" />
+    </node>
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8818660079754148371" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.3393165121846091586" resolveInfo="ICanSuppressErrors" />
     </node>
