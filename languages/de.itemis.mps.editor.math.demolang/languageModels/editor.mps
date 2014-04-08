@@ -88,8 +88,8 @@
   <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="8658283006827657504" nodeInfo="ng">
     <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="96v7.8658283006827523888" resolveInfo="Integral" />
     <node role="cellModel" roleId="tpc2.1080736633877" type="diuo.CustomSymbolIntegralEditor" typeId="diuo.5098456557385054779" id="5098456557385295439" nodeInfo="ng">
-      <node role="symbol" roleId="diuo.5098456557385054985" type="x4fh.PredefinedMathSymbolReference" typeId="x4fh.9120555111513574294" id="6730500395164383768" nodeInfo="ng">
-        <link role="decl" roleId="x4fh.9120555111513576085" targetNodeId="zva4.5098456557384994608" resolveInfo="FontIntegralSymbol" />
+      <node role="symbol" roleId="diuo.5098456557385054985" type="x4fh.PredefinedMathSymbolReference" typeId="x4fh.9120555111513574294" id="4222583594237129136" nodeInfo="ng">
+        <link role="decl" roleId="x4fh.9120555111513576085" targetNodeId="zva4.5098456557384915854" resolveInfo="BeautifulIntegralSymbol" />
       </node>
       <node role="body" roleId="diuo.5098456557385054780" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="5098456557385295476" nodeInfo="ng">
         <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="96v7.8658283006827657850" />
