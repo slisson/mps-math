@@ -3,7 +3,7 @@
   <property name="build.dir" location="build" />
   <property name="build.tmp" location="${build.dir}/tmp/mps-math-editor" />
   <property name="build.layout" location="${build.dir}/artifacts/mps-math-editor" />
-  <property name="mps.home" location="${basedir}/../../MPS/MPS-3.1-EAP1-27.app" />
+  <property name="mps.home" location="${basedir}/../../../../../../../Applications/MPS31EAP.app" />
   <property name="artifacts.mps" location="${mps.home}" />
   <property file="${artifacts.mps}/build.properties" prefix="import.mps" />
   <property name="mps.build.number" value="${import.mps.mps.build.number}" />
