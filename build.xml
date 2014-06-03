@@ -57,7 +57,7 @@
       <fileset dir="${basedir}/solutions/de.itemis.mps.editor.math.build/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.tmp}/default/mps-math-editor.zip/mps-math-editor/languages/mps-math-editor/de.itemis.mps.editor.math.build-src.jar">
-      <fileset dir="${basedir}/solutions/de.itemis.mps.editor.math.build/source_gen" includes="**/*.java" />
+      <fileset dir="${basedir}/solutions/de.itemis.mps.editor.math.build/source_gen" />
       <zipfileset file="${basedir}/solutions/de.itemis.mps.editor.math.build/de.itemis.mps.editor.math.build.msd" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/solutions-de.itemis.mps.editor.math.build-models" prefix="module/models" />
     </jar>
@@ -84,7 +84,7 @@
       <fileset dir="${basedir}/solutions/de.itemis.mps.editor.math.runtime/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.tmp}/default/mps-math-editor.zip/mps-math-editor/languages/mps-math-editor/de.itemis.mps.editor.math.runtime-src.jar">
-      <fileset dir="${basedir}/solutions/de.itemis.mps.editor.math.runtime/source_gen" includes="**/*.java" />
+      <fileset dir="${basedir}/solutions/de.itemis.mps.editor.math.runtime/source_gen" />
       <zipfileset file="${basedir}/solutions/de.itemis.mps.editor.math.runtime/de.itemis.mps.editor.math.runtime.msd" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/solutions-de.itemis.mps.editor.math.runtime-models" prefix="module/models" />
     </jar>
@@ -114,7 +114,7 @@
       <fileset dir="${basedir}/solutions/de.itemis.mps.editor.math.symbols/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.tmp}/default/mps-math-editor.zip/mps-math-editor/languages/mps-math-editor/de.itemis.mps.editor.math.symbols-src.jar">
-      <fileset dir="${basedir}/solutions/de.itemis.mps.editor.math.symbols/source_gen" includes="**/*.java" />
+      <fileset dir="${basedir}/solutions/de.itemis.mps.editor.math.symbols/source_gen" />
       <zipfileset file="${basedir}/solutions/de.itemis.mps.editor.math.symbols/de.itemis.mps.editor.math.symbols.msd" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/solutions-de.itemis.mps.editor.math.symbols-models" prefix="module/models" />
     </jar>
@@ -153,8 +153,8 @@
       <fileset dir="${basedir}/languages/de.itemis.mps.editor.math/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.tmp}/default/mps-math-editor.zip/mps-math-editor/languages/mps-math-editor/de.itemis.mps.editor.math-src.jar">
-      <fileset dir="${basedir}/languages/de.itemis.mps.editor.math/generator/source_gen" includes="**/*.java" />
-      <fileset dir="${basedir}/languages/de.itemis.mps.editor.math/source_gen" includes="**/*.java" />
+      <fileset dir="${basedir}/languages/de.itemis.mps.editor.math/generator/source_gen" />
+      <fileset dir="${basedir}/languages/de.itemis.mps.editor.math/source_gen" />
       <zipfileset file="${basedir}/languages/de.itemis.mps.editor.math/de.itemis.mps.editor.math.mpl" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-de.itemis.mps.editor.math-generator-template" prefix="module/generator/template" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-de.itemis.mps.editor.math-languageModels" prefix="module/languageModels" />
@@ -194,8 +194,8 @@
       <fileset dir="${basedir}/languages/de.itemis.mps.editor.math.notations/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.tmp}/default/mps-math-editor.zip/mps-math-editor/languages/mps-math-editor/de.itemis.mps.editor.math.notations-src.jar">
-      <fileset dir="${basedir}/languages/de.itemis.mps.editor.math.notations/generator/source_gen" includes="**/*.java" />
-      <fileset dir="${basedir}/languages/de.itemis.mps.editor.math.notations/source_gen" includes="**/*.java" />
+      <fileset dir="${basedir}/languages/de.itemis.mps.editor.math.notations/generator/source_gen" />
+      <fileset dir="${basedir}/languages/de.itemis.mps.editor.math.notations/source_gen" />
       <zipfileset file="${basedir}/languages/de.itemis.mps.editor.math.notations/de.itemis.mps.editor.math.notations.mpl" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-de.itemis.mps.editor.math.notations-generator-template" prefix="module/generator/template" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-de.itemis.mps.editor.math.notations-languageModels" prefix="module/languageModels" />
@@ -229,7 +229,7 @@
   
   <target name="generate" depends="declare-mps-tasks, fetchDependencies">
     <echo message="generating" />
-    <generate strictMode="true" parallelMode="true" parallelThreads="16" useInplaceTransform="true" fork="true">
+    <generate strictMode="true" parallelMode="true" parallelThreads="16" useInplaceTransform="true" hideWarnings="false" fork="true">
       <plugin path="${artifacts.mps}/plugins/mps-build" />
       <plugin path="${artifacts.mps}/plugins/mps-core/META-INF/plugin.xml/../.." />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
@@ -258,7 +258,6 @@
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.editor.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.findUsages.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.generator.generationContext.jar" />
-      <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.generator.generationParameters.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.generator.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.intentions.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.pattern.jar" />
@@ -293,12 +292,13 @@
       <chunk>
         <module file="${basedir}/languages/de.itemis.mps.editor.math/de.itemis.mps.editor.math.mpl" />
         <module file="${basedir}/solutions/de.itemis.mps.editor.math.build/de.itemis.mps.editor.math.build.msd" />
-        <module file="${basedir}/languages/de.itemis.mps.editor.math.notations/de.itemis.mps.editor.math.notations.mpl" />
         <module file="${basedir}/solutions/de.itemis.mps.editor.math.runtime/de.itemis.mps.editor.math.runtime.msd" />
       </chunk>
       <chunk>
+        <module file="${basedir}/languages/de.itemis.mps.editor.math.notations/de.itemis.mps.editor.math.notations.mpl" />
         <module file="${basedir}/solutions/de.itemis.mps.editor.math.symbols/de.itemis.mps.editor.math.symbols.msd" />
       </chunk>
+      <chunk />
       <jvmargs>
         <arg value="-Xmx512m" />
       </jvmargs>
@@ -345,7 +345,7 @@
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.2.1.jar" />
+        <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
@@ -377,7 +377,7 @@
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.2.1.jar" />
+        <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
@@ -409,7 +409,7 @@
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.2.1.jar" />
+        <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
@@ -420,7 +420,6 @@
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.classifiers.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.closures.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.collections.jar" />
-        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jdk7.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.actions.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.constraints.jar" />
@@ -457,7 +456,7 @@
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.2.1.jar" />
+        <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
@@ -468,7 +467,6 @@
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.classifiers.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.closures.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.collections.jar" />
-        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jdk7.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.actions.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.constraints.jar" />
@@ -482,7 +480,7 @@
     </javac>
   </target>
   
-  <target name="java.compile.de.itemis.mps.editor.math.notations" depends="java.compile.de.itemis.mps.editor.math, java.compile.de.itemis.mps.editor.math.runtime, fetchDependencies">
+  <target name="java.compile.de.itemis.mps.editor.math.notations" depends="java.compile.de.itemis.mps.editor.math, java.compile.de.itemis.mps.editor.math.runtime, java.compile.de.itemis.mps.editor.math.symbols, fetchDependencies">
     <mkdir dir="${basedir}/languages/de.itemis.mps.editor.math.notations/source_gen" />
     <mkdir dir="${build.tmp}/java/out/de.itemis.mps.editor.math.notations" />
     <javac destdir="${build.tmp}/java/out/de.itemis.mps.editor.math.notations" fork="true" includeantruntime="false">
@@ -502,10 +500,11 @@
         <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <pathelement path="${build.tmp}/java/out/de.itemis.mps.editor.math" />
         <pathelement path="${build.tmp}/java/out/de.itemis.mps.editor.math.runtime" />
+        <pathelement path="${build.tmp}/java/out/de.itemis.mps.editor.math.symbols" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.2.1.jar" />
+        <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
@@ -516,7 +515,6 @@
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.classifiers.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.closures.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.collections.jar" />
-        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jdk7.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.actions.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.constraints.jar" />
@@ -555,7 +553,7 @@
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.2.1.jar" />
+        <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
@@ -566,7 +564,6 @@
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.classifiers.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.closures.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.collections.jar" />
-        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jdk7.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.actions.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.constraints.jar" />
@@ -583,10 +580,10 @@
   <target name="cleanSources">
     <delete dir="${basedir}/languages/de.itemis.mps.editor.math/source_gen" />
     <delete dir="${basedir}/solutions/de.itemis.mps.editor.math.build/source_gen" />
-    <delete dir="${basedir}/languages/de.itemis.mps.editor.math.notations/source_gen" />
     <delete dir="${basedir}/solutions/de.itemis.mps.editor.math.runtime/source_gen" />
     <delete dir="${basedir}/languages/de.itemis.mps.editor.math/generator/source_gen" />
-    <delete dir="${basedir}/languages/de.itemis.mps.editor.math.notations/generator/source_gen" />
+    <delete dir="${basedir}/languages/de.itemis.mps.editor.math.notations/source_gen" />
     <delete dir="${basedir}/solutions/de.itemis.mps.editor.math.symbols/source_gen" />
+    <delete dir="${basedir}/languages/de.itemis.mps.editor.math.notations/generator/source_gen" />
   </target>
 </project>
