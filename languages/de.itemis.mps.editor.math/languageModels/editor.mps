@@ -444,6 +444,13 @@
         <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1t7x.~Color%dBLACK" resolveInfo="BLACK" />
       </node>
     </node>
+    <node role="styleClass" roleId="tpc2.1186402402630" type="tpc2.StyleAttributeDeclaration" typeId="tpc2.3982520150113085419" id="6482141033943887296" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="side-tranformation-helper-cells" />
+      <node role="valueType" roleId="tpc2.3982520150113092206" type="tpee.BooleanType" typeId="tpee.1070534644030" id="6482141033943887306" nodeInfo="in" />
+      <node role="defaultValue" roleId="tpc2.3982520150113147643" type="tpee.BooleanConstant" typeId="tpee.1068580123137" id="6482141033943887312" nodeInfo="nn">
+        <property name="value" nameId="tpee.1068580123138" value="true" />
+      </node>
+    </node>
   </root>
 </model>
 
