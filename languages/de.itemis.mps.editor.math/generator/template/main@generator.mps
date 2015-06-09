@@ -30,6 +30,7 @@
     <import index="qe67" ref="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.openapi.editor.style(MPS.Editor/jetbrains.mps.openapi.editor.style@java_stub)" />
     <import index="ejnv" ref="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.editor.runtime.style(MPS.Editor/jetbrains.mps.editor.runtime.style@java_stub)" />
     <import index="19h7" ref="r:c367b380-739b-4331-a16f-a542455fc0c8(de.itemis.mps.editor.math.editor)" />
+    <import index="tp27" ref="r:00000000-0000-4000-0000-011c89590303(jetbrains.mps.lang.smodel.generator.baseLanguage.template.main@generator)" />
     <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
@@ -229,6 +230,7 @@
       </concept>
       <concept id="1194565793557" name="jetbrains.mps.lang.generator.structure.IncludeMacro" flags="ln" index="xERo3">
         <reference id="1194566366375" name="includeTemplate" index="xH3mL" />
+        <child id="1194565823413" name="sourceNodeQuery" index="xEYEz" />
       </concept>
       <concept id="1167168920554" name="jetbrains.mps.lang.generator.structure.BaseMappingRule_Condition" flags="in" index="30G5F_" />
       <concept id="1167169188348" name="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" flags="nn" index="30H73N" />
@@ -1715,42 +1717,6 @@
                 </node>
               </node>
               <node concept="3clFbJ" id="5ajRFTcxVB$" role="3cqZAp">
-                <node concept="2YIFZM" id="5ajRFTcxVB_" role="3clFbw">
-                  <ref role="37wK5l" to="ec5l:~SNodeAccessUtil.hasProperty(org.jetbrains.mps.openapi.model.SNode,java.lang.String):boolean" resolve="hasProperty" />
-                  <ref role="1Pybhc" to="ec5l:~SNodeAccessUtil" resolve="SNodeAccessUtil" />
-                  <node concept="2JrnkZ" id="5ajRFTcxVBA" role="37wK5m">
-                    <node concept="37vLTw" id="2BHiRxgm7iU" role="2JrQYb">
-                      <ref role="3cqZAo" node="5ajRFTcxVCj" resolve="node" />
-                    </node>
-                  </node>
-                  <node concept="Xl_RD" id="5ajRFTcxVBC" role="37wK5m">
-                    <property role="Xl_RC" value="propertyName" />
-                    <node concept="17Uvod" id="5ajRFTcxVBD" role="lGtFl">
-                      <property role="2qtEX9" value="value" />
-                      <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1070475926800/1070475926801" />
-                      <node concept="3zFVjK" id="5ajRFTcxVBE" role="3zH0cK">
-                        <node concept="3clFbS" id="5ajRFTcxVBF" role="2VODD2">
-                          <node concept="3clFbF" id="5ajRFTcxVBG" role="3cqZAp">
-                            <node concept="2OqwBi" id="5ajRFTcxVBH" role="3clFbG">
-                              <node concept="2OqwBi" id="5ajRFTcxVBI" role="2Oq$k0">
-                                <node concept="1PxgMI" id="5ajRFTcxVBJ" role="2Oq$k0">
-                                  <ref role="1PxNhF" to="tpc2:heYWUh$" resolve="CellModel_NonEmptyProperty" />
-                                  <node concept="30H73N" id="5ajRFTcxVBK" role="1PxMeX" />
-                                </node>
-                                <node concept="3TrEf2" id="5ajRFTcxVBL" role="2OqNvi">
-                                  <ref role="3Tt5mk" to="tpc2:fBF1KQc" />
-                                </node>
-                              </node>
-                              <node concept="3TrcHB" id="5ajRFTcxVBM" role="2OqNvi">
-                                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-                              </node>
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
                 <node concept="3clFbS" id="5ajRFTcxVBN" role="3clFbx">
                   <node concept="3clFbF" id="5ajRFTcxVBO" role="3cqZAp">
                     <node concept="2OqwBi" id="5ajRFTcxVBP" role="3clFbG">
@@ -1789,6 +1755,35 @@
                               </node>
                             </node>
                             <node concept="10Nm6u" id="5ajRFTcxVC7" role="3uHU7w" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="2YIFZM" id="3ml7vNZ0rm6" role="3clFbw">
+                  <ref role="1Pybhc" to="ec5l:~SNodeAccessUtil" resolve="SNodeAccessUtil" />
+                  <ref role="37wK5l" to="ec5l:~SNodeAccessUtil.hasProperty(org.jetbrains.mps.openapi.model.SNode,org.jetbrains.mps.openapi.language.SProperty):boolean" resolve="hasProperty" />
+                  <node concept="2JrnkZ" id="3ml7vNZ0rm7" role="37wK5m">
+                    <node concept="37vLTw" id="3ml7vNZ0rm8" role="2JrQYb">
+                      <ref role="3cqZAo" node="5ajRFTcxVCj" resolve="node" />
+                    </node>
+                  </node>
+                  <node concept="10Nm6u" id="3ml7vNZ0rm9" role="37wK5m">
+                    <node concept="xERo3" id="3ml7vNZ0rma" role="lGtFl">
+                      <ref role="xH3mL" to="tp27:5DcBNiM88Ty" resolve="reduce_PropertyDeclaration_SProperty" />
+                      <node concept="3NFfHV" id="3ml7vNZ0rmb" role="xEYEz">
+                        <node concept="3clFbS" id="3ml7vNZ0rmc" role="2VODD2">
+                          <node concept="3clFbF" id="3ml7vNZ0rmd" role="3cqZAp">
+                            <node concept="2OqwBi" id="3ml7vNZ0rme" role="3clFbG">
+                              <node concept="1PxgMI" id="3ml7vNZ0rmf" role="2Oq$k0">
+                                <ref role="1PxNhF" to="tpc2:heYWUh$" resolve="CellModel_NonEmptyProperty" />
+                                <node concept="30H73N" id="3ml7vNZ0rmg" role="1PxMeX" />
+                              </node>
+                              <node concept="3TrEf2" id="3ml7vNZ0rmh" role="2OqNvi">
+                                <ref role="3Tt5mk" to="tpc2:fBF1KQc" />
+                              </node>
+                            </node>
                           </node>
                         </node>
                       </node>
