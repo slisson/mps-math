@@ -6800,7 +6800,7 @@
                             <ref role="3cqZAo" node="CZjRlFElcj" resolve="pattern" />
                           </node>
                           <node concept="1rXfSq" id="CZjRlFElcx" role="37vLTx">
-                            <ref role="37wK5l" node="CZjRlFErdY" resolve="getRenderedTextOn" />
+                            <ref role="37wK5l" node="CZjRlFErdY" resolve="getTextOnEvent" />
                             <node concept="37vLTw" id="CZjRlFElcy" role="37wK5m">
                               <ref role="3cqZAo" node="CZjRlFC2w$" resolve="keyEvent" />
                             </node>
@@ -6906,7 +6906,7 @@
     </node>
     <node concept="2tJIrI" id="CZjRlFC1mQ" role="jymVt" />
     <node concept="3clFb_" id="CZjRlFErdY" role="jymVt">
-      <property role="TrG5h" value="getRenderedTextOn" />
+      <property role="TrG5h" value="getTextOnEvent" />
       <node concept="17QB3L" id="CZjRlFEs3U" role="3clF45" />
       <node concept="3Tm6S6" id="CZjRlFErFn" role="1B3o_S" />
       <node concept="3clFbS" id="CZjRlFEre2" role="3clF47">
@@ -6965,7 +6965,7 @@
                   <node concept="liA8E" id="CZjRlFEF$J" role="2OqNvi">
                     <ref role="37wK5l" to="e2lb:~Class.getDeclaredMethod(java.lang.String,java.lang.Class...):java.lang.reflect.Method" resolve="getDeclaredMethod" />
                     <node concept="Xl_RD" id="CZjRlFEI4j" role="37wK5m">
-                      <property role="Xl_RC" value="getRenderedTextOn" />
+                      <property role="Xl_RC" value="getTextOnEvent" />
                     </node>
                     <node concept="3VsKOn" id="CZjRlFEJWj" role="37wK5m">
                       <ref role="3VsUkX" to="8q6x:~KeyEvent" resolve="KeyEvent" />
