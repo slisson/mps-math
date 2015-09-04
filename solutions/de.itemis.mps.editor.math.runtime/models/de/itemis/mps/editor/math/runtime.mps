@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model ref="r:34f40b74-cb38-46ba-8e5b-13b443c803c4(de.itemis.mps.editor.math.runtime)">
   <persistence version="9" />
-  <attribute name="concise" value="true" />
   <languages>
     <use id="ed6d7656-532c-4bc2-81d1-af945aeb8280" name="jetbrains.mps.baseLanguage.blTypes" version="-1" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="-1" />
     <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="-1" />
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="-1" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="-1" />
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="-1" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="1" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="1" />
   </languages>
   <imports>
     <import index="jsgz" ref="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.nodeEditor.cells(MPS.Editor/jetbrains.mps.nodeEditor.cells@java_stub)" />
@@ -192,7 +191,7 @@
         <child id="1068580123160" name="condition" index="3clFbw" />
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
       </concept>
-      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
@@ -6800,7 +6799,7 @@
                             <ref role="3cqZAo" node="CZjRlFElcj" resolve="pattern" />
                           </node>
                           <node concept="1rXfSq" id="CZjRlFElcx" role="37vLTx">
-                            <ref role="37wK5l" node="CZjRlFErdY" resolve="getRenderedTextOn" />
+                            <ref role="37wK5l" node="CZjRlFErdY" resolve="getTextOnEvent" />
                             <node concept="37vLTw" id="CZjRlFElcy" role="37wK5m">
                               <ref role="3cqZAo" node="CZjRlFC2w$" resolve="keyEvent" />
                             </node>
@@ -6906,7 +6905,7 @@
     </node>
     <node concept="2tJIrI" id="CZjRlFC1mQ" role="jymVt" />
     <node concept="3clFb_" id="CZjRlFErdY" role="jymVt">
-      <property role="TrG5h" value="getRenderedTextOn" />
+      <property role="TrG5h" value="getTextOnEvent" />
       <node concept="17QB3L" id="CZjRlFEs3U" role="3clF45" />
       <node concept="3Tm6S6" id="CZjRlFErFn" role="1B3o_S" />
       <node concept="3clFbS" id="CZjRlFEre2" role="3clF47">
@@ -6965,7 +6964,7 @@
                   <node concept="liA8E" id="CZjRlFEF$J" role="2OqNvi">
                     <ref role="37wK5l" to="e2lb:~Class.getDeclaredMethod(java.lang.String,java.lang.Class...):java.lang.reflect.Method" resolve="getDeclaredMethod" />
                     <node concept="Xl_RD" id="CZjRlFEI4j" role="37wK5m">
-                      <property role="Xl_RC" value="getRenderedTextOn" />
+                      <property role="Xl_RC" value="getTextOnEvent" />
                     </node>
                     <node concept="3VsKOn" id="CZjRlFEJWj" role="37wK5m">
                       <ref role="3VsUkX" to="8q6x:~KeyEvent" resolve="KeyEvent" />
